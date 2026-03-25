@@ -283,7 +283,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="696" height="695" src="https://redikicks.com/wp-content/uploads/2024/07/71AQlNfVGAL._AC_SY695_.jpg" alt="features of men's driving shoes" class="wp-image-115" srcset="https://redikicks.com/wp-content/uploads/2024/07/71AQlNfVGAL._AC_SY695_.jpg 696w, https://redikicks.com/wp-content/uploads/2024/07/71AQlNfVGAL._AC_SY695_-300x300.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/71AQlNfVGAL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 696px) 100vw, 696px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="696" height="695" src="/redikicks-astro/images/71AQlNfVGAL._AC_SY695_.jpg" alt="features of men's driving shoes" class="wp-image-115" srcset="/redikicks-astro/images/71AQlNfVGAL._AC_SY695_.jpg 696w, /redikicks-astro/images/71AQlNfVGAL._AC_SY695_-300x300.jpg 300w, /redikicks-astro/images/71AQlNfVGAL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 696px) 100vw, 696px" /></figure>
 
 
 
@@ -411,7 +411,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="695" src="https://redikicks.com/wp-content/uploads/2024/07/81wbRarg20L._AC_SY695_.jpg" alt="Man wearing driving shoes" class="wp-image-116" srcset="https://redikicks.com/wp-content/uploads/2024/07/81wbRarg20L._AC_SY695_.jpg 695w, https://redikicks.com/wp-content/uploads/2024/07/81wbRarg20L._AC_SY695_-300x300.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/81wbRarg20L._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="695" src="/redikicks-astro/images/81wbRarg20L._AC_SY695_.jpg" alt="Man wearing driving shoes" class="wp-image-116" srcset="/redikicks-astro/images/81wbRarg20L._AC_SY695_.jpg 695w, /redikicks-astro/images/81wbRarg20L._AC_SY695_-300x300.jpg 300w, /redikicks-astro/images/81wbRarg20L._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
 
 
 

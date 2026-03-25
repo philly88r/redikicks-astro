@@ -407,7 +407,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="577" src="https://redikicks.com/wp-content/uploads/2024/07/71K2ViLN4IL._AC_SY695_-1024x577.jpg" alt="Leather Men's Monk Strap Shoes " class="wp-image-159" srcset="https://redikicks.com/wp-content/uploads/2024/07/71K2ViLN4IL._AC_SY695_-1024x577.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/07/71K2ViLN4IL._AC_SY695_-300x169.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/71K2ViLN4IL._AC_SY695_-768x433.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/71K2ViLN4IL._AC_SY695_.jpg 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="577" src="/redikicks-astro/images/71K2ViLN4IL._AC_SY695_-1024x577.jpg" alt="Leather Men's Monk Strap Shoes " class="wp-image-159" srcset="/redikicks-astro/images/71K2ViLN4IL._AC_SY695_-1024x577.jpg 1024w, /redikicks-astro/images/71K2ViLN4IL._AC_SY695_-300x169.jpg 300w, /redikicks-astro/images/71K2ViLN4IL._AC_SY695_-768x433.jpg 768w, /redikicks-astro/images/71K2ViLN4IL._AC_SY695_.jpg 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -489,7 +489,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="962" height="695" src="https://redikicks.com/wp-content/uploads/2024/07/71qMtbJVnsL._AC_SY695_.jpg" alt="Beautiful Blue Suede Mens Monk Strap Shoes" class="wp-image-161" srcset="https://redikicks.com/wp-content/uploads/2024/07/71qMtbJVnsL._AC_SY695_.jpg 962w, https://redikicks.com/wp-content/uploads/2024/07/71qMtbJVnsL._AC_SY695_-300x217.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/71qMtbJVnsL._AC_SY695_-768x555.jpg 768w" sizes="(max-width: 962px) 100vw, 962px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="962" height="695" src="/redikicks-astro/images/71qMtbJVnsL._AC_SY695_.jpg" alt="Beautiful Blue Suede Mens Monk Strap Shoes" class="wp-image-161" srcset="/redikicks-astro/images/71qMtbJVnsL._AC_SY695_.jpg 962w, /redikicks-astro/images/71qMtbJVnsL._AC_SY695_-300x217.jpg 300w, /redikicks-astro/images/71qMtbJVnsL._AC_SY695_-768x555.jpg 768w" sizes="(max-width: 962px) 100vw, 962px" /></figure>
 
 
 

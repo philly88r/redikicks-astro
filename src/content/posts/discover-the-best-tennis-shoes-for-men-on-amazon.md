@@ -525,7 +525,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="362" height="453" src="https://redikicks.com/wp-content/uploads/2024/07/3e52b262-0067-4f45-b3d3-fe2d6f2c163d.__CR00362453_PT0_SX362_V1___.jpg" alt="adidas men's tennis shoes slogan" class="wp-image-121" srcset="https://redikicks.com/wp-content/uploads/2024/07/3e52b262-0067-4f45-b3d3-fe2d6f2c163d.__CR00362453_PT0_SX362_V1___.jpg 362w, https://redikicks.com/wp-content/uploads/2024/07/3e52b262-0067-4f45-b3d3-fe2d6f2c163d.__CR00362453_PT0_SX362_V1___-240x300.jpg 240w" sizes="(max-width: 362px) 100vw, 362px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="362" height="453" src="/redikicks-astro/images/3e52b262-0067-4f45-b3d3-fe2d6f2c163d.__CR00362453_PT0_SX362_V1___.jpg" alt="adidas men's tennis shoes slogan" class="wp-image-121" srcset="/redikicks-astro/images/3e52b262-0067-4f45-b3d3-fe2d6f2c163d.__CR00362453_PT0_SX362_V1___.jpg 362w, /redikicks-astro/images/3e52b262-0067-4f45-b3d3-fe2d6f2c163d.__CR00362453_PT0_SX362_V1___-240x300.jpg 240w" sizes="(max-width: 362px) 100vw, 362px" /></figure>
 
 
 
@@ -549,7 +549,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="768" height="1024" src="https://redikicks.com/wp-content/uploads/2024/07/81XweOQeApL-768x1024.jpg" alt="men's tennis shoes real picture" class="wp-image-120" srcset="https://redikicks.com/wp-content/uploads/2024/07/81XweOQeApL-768x1024.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/81XweOQeApL-225x300.jpg 225w, https://redikicks.com/wp-content/uploads/2024/07/81XweOQeApL-1152x1536.jpg 1152w, https://redikicks.com/wp-content/uploads/2024/07/81XweOQeApL.jpg 1224w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">Version 1.0.0</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="768" height="1024" src="/redikicks-astro/images/81XweOQeApL-768x1024.jpg" alt="men's tennis shoes real picture" class="wp-image-120" srcset="/redikicks-astro/images/81XweOQeApL-768x1024.jpg 768w, /redikicks-astro/images/81XweOQeApL-225x300.jpg 225w, /redikicks-astro/images/81XweOQeApL-1152x1536.jpg 1152w, /redikicks-astro/images/81XweOQeApL.jpg 1224w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">Version 1.0.0</figcaption></figure>
 
 
 

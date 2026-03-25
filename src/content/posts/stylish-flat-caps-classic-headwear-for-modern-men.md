@@ -4,7 +4,7 @@ slug: "stylish-flat-caps-classic-headwear-for-modern-men"
 date: "2024-08-04T16:50:51"
 categories: ["Men's Accessories"]
 excerpt: "Explore our collection of stylish flat caps, the quintessential headwear for the modern man seeking a touch of classic elegance. Shop now! "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_633.png"
+featured_image: "/redikicks-astro/images/featured_image_633.png"
 ---
 
 <p>Did you know flat caps have been around since 1571? They became popular again in the 1920s, loved by men of all backgrounds. These stylish caps are more than old hats; they&#8217;re key pieces for today&#8217;s man.</p>
@@ -26,7 +26,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <h3>Modern Resurgence in Popularity</h3>
 <p>Today, the flat cap is back in style, loved by those who like to stay ahead of the curve. You can see them in cities and at trendy events. They show how well they fit into different cultures.</p>
 <p>Brands like Anatoly &amp; Sons offer flat caps in materials like tweed, wool, and leather. This new take on the <b>classic style</b> appeals to today&#8217;s fashion lovers.</p>
-<p><img loading="lazy" decoding="async" src="https://redikicks.com/wp-content/uploads/2024/08/flat-cap-history-1024x585.jpg" alt="flat cap history" title="flat cap history" width="832" height="475" class="aligncenter size-large wp-image-635" srcset="https://redikicks.com/wp-content/uploads/2024/08/flat-cap-history-1024x585.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-history-300x171.jpg 300w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-history-768x439.jpg 768w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-history.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
+<p><img loading="lazy" decoding="async" src="/redikicks-astro/images/flat-cap-history-1024x585.jpg" alt="flat cap history" title="flat cap history" width="832" height="475" class="aligncenter size-large wp-image-635" srcset="/redikicks-astro/images/flat-cap-history-1024x585.jpg 1024w, /redikicks-astro/images/flat-cap-history-300x171.jpg 300w, /redikicks-astro/images/flat-cap-history-768x439.jpg 768w, /redikicks-astro/images/flat-cap-history.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
 <h2>What is a Flat Cap?</h2>
 <p>The flat cap is a special kind of hat known for its soft, rounded top and short brim. It started in England in the 14th century. Over time, it has changed into different styles, each with its own look.</p>
 <h3>Different Types of Flat Caps</h3>
@@ -39,7 +39,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <h3>Flat Cap Versatility Across Seasons</h3>
 <p>Flat caps are great for any season. They can be made from cotton, wool, or tweed. In the summer, the light materials keep you cool. In the winter, the wool or tweed ones keep you warm.</p>
 <p>This makes flat caps perfect for all kinds of outfits, from casual to dressy. They keep your style on point all year long.</p>
-<p><img loading="lazy" decoding="async" src="https://redikicks.com/wp-content/uploads/2024/08/types-of-flat-caps-1024x585.jpg" alt="types of flat caps" title="types of flat caps" width="832" height="475" class="aligncenter size-large wp-image-636" srcset="https://redikicks.com/wp-content/uploads/2024/08/types-of-flat-caps-1024x585.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/08/types-of-flat-caps-300x171.jpg 300w, https://redikicks.com/wp-content/uploads/2024/08/types-of-flat-caps-768x439.jpg 768w, https://redikicks.com/wp-content/uploads/2024/08/types-of-flat-caps.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
+<p><img loading="lazy" decoding="async" src="/redikicks-astro/images/types-of-flat-caps-1024x585.jpg" alt="types of flat caps" title="types of flat caps" width="832" height="475" class="aligncenter size-large wp-image-636" srcset="/redikicks-astro/images/types-of-flat-caps-1024x585.jpg 1024w, /redikicks-astro/images/types-of-flat-caps-300x171.jpg 300w, /redikicks-astro/images/types-of-flat-caps-768x439.jpg 768w, /redikicks-astro/images/types-of-flat-caps.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
 <table>
 <tr>
 <th>Type of Flat Cap</th>
@@ -82,7 +82,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>The cap should sit well at the back, reaching to the back of your neck.</li>
 </ol>
 <p>These tips will make wearing a flat cap more comfortable and boost your confidence. Check out more on <a href="https://hickorygolfstore.com/blogs/news/the-golfers-guide-to-choosing-and-styling-flat-caps" target="_blank" rel="nofollow noopener">choosing flat caps</a> for your next adventure.</p>
-<p><img loading="lazy" decoding="async" src="https://redikicks.com/wp-content/uploads/2024/08/flat-cap-fit-for-mens-fashion-1024x585.jpg" alt="flat cap fit for men&#039;s fashion" title="flat cap fit for men&#039;s fashion" width="832" height="475" class="aligncenter size-large wp-image-637" srcset="https://redikicks.com/wp-content/uploads/2024/08/flat-cap-fit-for-mens-fashion-1024x585.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-fit-for-mens-fashion-300x171.jpg 300w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-fit-for-mens-fashion-768x439.jpg 768w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-fit-for-mens-fashion.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
+<p><img loading="lazy" decoding="async" src="/redikicks-astro/images/flat-cap-fit-for-mens-fashion-1024x585.jpg" alt="flat cap fit for men&#039;s fashion" title="flat cap fit for men&#039;s fashion" width="832" height="475" class="aligncenter size-large wp-image-637" srcset="/redikicks-astro/images/flat-cap-fit-for-mens-fashion-1024x585.jpg 1024w, /redikicks-astro/images/flat-cap-fit-for-mens-fashion-300x171.jpg 300w, /redikicks-astro/images/flat-cap-fit-for-mens-fashion-768x439.jpg 768w, /redikicks-astro/images/flat-cap-fit-for-mens-fashion.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
 <h2>The Connection Between Flat Caps and Menswear Fashion</h2>
 <p>Flat caps are now key in <b>menswear fashion</b>. They add style to many outfits. They work well with both casual and formal clothes, like jeans and a t-shirt or a suit. Learning how to wear flat caps can boost your style.</p>
 <h3>Styling with Different Outfits</h3>
@@ -125,7 +125,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <h3>Ivy Caps: A Modern Twist</h3>
 <p>The <em>ivy cap</em> is sleek and stylish. It started in Northern England and has a rounded body and short brim. It&#8217;s perfect for many occasions.</p>
 <p>It fits well with both casual and smart-casual clothes. Brands like Brixton have updated the <b>ivy cap</b> with new fabrics and patterns. This mix of old and new makes it popular today.</p>
-<p><img loading="lazy" decoding="async" src="https://redikicks.com/wp-content/uploads/2024/08/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-1024x585.jpg" alt="newsboy cap, tweed flat cap, ivy cap, flat cap variations" title="newsboy cap, tweed flat cap, ivy cap, flat cap variations" width="832" height="475" class="aligncenter size-large wp-image-638" srcset="https://redikicks.com/wp-content/uploads/2024/08/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-1024x585.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/08/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-300x171.jpg 300w, https://redikicks.com/wp-content/uploads/2024/08/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-768x439.jpg 768w, https://redikicks.com/wp-content/uploads/2024/08/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
+<p><img loading="lazy" decoding="async" src="/redikicks-astro/images/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-1024x585.jpg" alt="newsboy cap, tweed flat cap, ivy cap, flat cap variations" title="newsboy cap, tweed flat cap, ivy cap, flat cap variations" width="832" height="475" class="aligncenter size-large wp-image-638" srcset="/redikicks-astro/images/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-1024x585.jpg 1024w, /redikicks-astro/images/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-300x171.jpg 300w, /redikicks-astro/images/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations-768x439.jpg 768w, /redikicks-astro/images/newsboy-cap-tweed-flat-cap-ivy-cap-flat-cap-variations.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
 <table>
 <tr>
 <th>Cap Type</th>
@@ -162,7 +162,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Avoid ironing your cap to prevent damage.</li>
 <li>If your cap loses shape, steam it and reshape on a flat surface.</li>
 </ul>
-<p><img loading="lazy" decoding="async" src="https://redikicks.com/wp-content/uploads/2024/08/flat-cap-materials-1024x585.jpg" alt="flat cap materials" title="flat cap materials" width="832" height="475" class="aligncenter size-large wp-image-639" srcset="https://redikicks.com/wp-content/uploads/2024/08/flat-cap-materials-1024x585.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-materials-300x171.jpg 300w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-materials-768x439.jpg 768w, https://redikicks.com/wp-content/uploads/2024/08/flat-cap-materials.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
+<p><img loading="lazy" decoding="async" src="/redikicks-astro/images/flat-cap-materials-1024x585.jpg" alt="flat cap materials" title="flat cap materials" width="832" height="475" class="aligncenter size-large wp-image-639" srcset="/redikicks-astro/images/flat-cap-materials-1024x585.jpg 1024w, /redikicks-astro/images/flat-cap-materials-300x171.jpg 300w, /redikicks-astro/images/flat-cap-materials-768x439.jpg 768w, /redikicks-astro/images/flat-cap-materials.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
 <h2>Flat Caps for Every Occasion</h2>
 <p>Flat caps are known for their versatility, fitting both casual and formal events. They add style to any outfit, making them perfect for any event. Whether it&#8217;s a laid-back day out or a fancy party, flat caps bring a unique touch to your look.</p>
 <h3>Casual Outings and Daily Wear</h3>

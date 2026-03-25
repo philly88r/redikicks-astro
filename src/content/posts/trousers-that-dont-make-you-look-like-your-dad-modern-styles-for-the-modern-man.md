@@ -4,7 +4,7 @@ slug: "trousers-that-dont-make-you-look-like-your-dad-modern-styles-for-the-mode
 date: "2024-08-04T16:26:10"
 categories: ["Men's Fashion"]
 excerpt: "Pull your wardrobe out of dad-mode and discover modern trouser styles that will revolutionize your look &#8211; but first&#44; read this. "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_1197.png"
+featured_image: "/redikicks-astro/images/featured_image_1197.png"
 ---
 
 <p>You&#39;re tired of looking like your dad&#44; and who can blame you&#63; It&#39;s time to ditch the baggy&#44; dated trousers and upgrade to modern styles that make a statement. <strong>Slim-fit trousers</strong> are a great place to start&#44; offering versatility and adaptability for any occasion. But that&#39;s just the beginning. From <strong>athleisure wear</strong> that blurs the lines between athletic and fashion wear&#44; to <strong>chinos</strong> that bring rugged sophistication to the office&#44; there are countless ways to reinvent your wardrobe. And&#44; with a little know-how&#44; you can master the art of <strong>pattern mixing</strong> and create a look that&#39;s uniquely yours &#8211; so&#44; what&#39;s next&#63;</p>
@@ -16,7 +16,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Pay attention to details like pocket placement&#44; stitching&#44; and hardware to create a unique look.</li>
 </ul>
 <h2>Slim-Fit Trousers for the Win</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/stylish_pants_for_men.jpg" alt="stylish pants for men" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/stylish_pants_for_men.jpg" alt="stylish pants for men" style="aspect-ratio: 16/9;"></div>
 <p>Slim-fit trousers have solidified their spot as a <strong>must-have</strong> in every stylish guy&#39;s wardrobe. These trousers are the ultimate <strong>chameleon</strong>&#44; effortlessly dressing up or down to suit any occasion.</p>
 <p>From trendy fabrics like wool&#44; cotton&#44; and linen to fashionable lengths that hit just above the ankle&#44; <strong>slim-fit trousers</strong> are the perfect addition to your wardrobe.</p>
 <p>Pair them with a <strong>crisp white shirt</strong> and blazer for a sharp&#44; sophisticated look or with a graphic tee and sneakers for a more laid-back vibe. The beauty of slim-fit trousers lies in their ability to adapt to your <strong>personal style</strong> while still making a statement.</p>
@@ -31,7 +31,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>&#160;</p>
 <p>&#42; <strong>Accessories are key</strong>&#58; Add a trendy hat&#44; a quality watch&#44; or a statement backpack to give your athleisure look a fashion-forward twist.</p>
 <h2>Chinos for the Modern Man</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/versatile_comfortable_and_stylish.jpg" alt="versatile comfortable and stylish" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/versatile_comfortable_and_stylish.jpg" alt="versatile comfortable and stylish" style="aspect-ratio: 16/9;"></div>
 <p>You&#39;re already on top of the <strong>athletic wear trend</strong>&#44; so now it&#39;s time to upgrade your wardrobe with a fresh take on a classic staple&#58; chinos.</p>
 <p>You&#39;ll be stoked to know that modern chinos come in a range of <strong>slim fit options</strong> that will make you look sharp and put-together.</p>
 <p>From <strong>earthy tone palettes</strong> that add a touch of sophistication to versatile fabric choices that can take you from casual to dressy&#44; there&#39;s a pair of chinos out there that&#39;s perfect for your unique style.</p>
@@ -85,7 +85,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>When <strong>mixing patterns</strong>&#44; it&#39;s essential to consider <strong>the 60-30-10 rule</strong>. Allocate 60&#37; of your outfit to a dominant pattern&#44; 30&#37; to a secondary pattern&#44; and 10&#37; to an accent pattern.</p>
 <p>This will create a sense of balance and <strong>visual interest</strong>. Don&#39;t be afraid to experiment with different textures&#44; too. Mixing smooth and rough textures adds depth to your outfit and creates a more dynamic look.</p>
 <h2>Trousers for the Office Rebel</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/dressing_against_the_norm.jpg" alt="dressing against the norm" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/dressing_against_the_norm.jpg" alt="dressing against the norm" style="aspect-ratio: 16/9;"></div>
 <p>Ditch the boring&#44; cookie-cutter office pants and shake up your workwear wardrobe with statement trousers that scream individuality. You&#39;re not just a cog in the corporate machine&#44; you&#39;re a rebel with a cause &#8211; and that cause is to look damn good while taking down the competition.</p>
 <p>&#160;</p>
 <p>As an office rebel&#44; you know that corporate fashion doesn&#39;t have to be stuffy. You can make a statement with your office attire without sacrificing style or professionalism.</p>

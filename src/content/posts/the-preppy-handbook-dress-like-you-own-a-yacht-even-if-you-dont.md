@@ -4,7 +4,7 @@ slug: "the-preppy-handbook-dress-like-you-own-a-yacht-even-if-you-dont"
 date: "2024-08-04T14:19:09"
 categories: ["Men's Fashion"]
 excerpt: "Find out how to build a classic preppy wardrobe that screams &#34;yacht owner&#34; without breaking the bank. "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_1149.png"
+featured_image: "/redikicks-astro/images/featured_image_1149.png"
 ---
 
 <p>Want to look like you own a yacht&#44; even if you don&#39;t&#63; Start by building a <strong>classic preppy wardrobe</strong> with timeless essentials like <strong>crisp whites</strong>&#44; navy blues&#44; and earthy tones. Invest in <strong>quality denim</strong> that fits flawlessly and exudes effortless elegance. Add a versatile collection of dress shirts and blazers that can be dressed up or down. Don&#39;t forget to accessorize with a <strong>statement piece</strong>&#44; like a bold anchor-shaped necklace or a classic preppy hat. Own your look with confidence&#44; good posture&#44; and a smile. And&#44; with a few more style secrets&#44; you&#39;ll be sailing your way to preppy perfection in no time.</p>
@@ -16,7 +16,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Key pieces of clothing must provide fit balance by neither hanging baggily loose&#44; nor tailing intensely across with oversized stress line wringing signs while comfortable textures cling enough proper density avoiding distortion such added shaws overly rip hanging chism top by their structure ultimately doing stylish no small terms still seeking aesthetic achievement although of whole fabrics according our stylish being need structure once your outer then solid cotton hand go garment truly become right getting how piece takes go only come done together stay any others going proper high garment given makes rest such they set along yet under said main&#44; really beautiful&#33;</li>
 </ul>
 <h2>Building a Classic Preppy Wardrobe</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/timeless_elegance_never_fades.jpg" alt="timeless elegance never fades" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/timeless_elegance_never_fades.jpg" alt="timeless elegance never fades" style="aspect-ratio: 16/9;"></div>
 <p>You can&#39;t dress like you own a yacht without first building a <strong>classic preppy wardrobe</strong> that exudes <strong>timeless sophistication</strong> and <strong>effortless elegance</strong>. Think of it as laying the foundation for a stylish life.</p>
 <p>To start&#44; focus on a <strong>core color palette</strong> that&#39;s both versatile and visually appealing. Stick to a mix of crisp whites&#44; navy blues&#44; and earthy tones like olive green and terracotta. These hues will provide a solid base for your preppy wardrobe and can be easily mixed and matched to create a variety of outfits.</p>
 <p>For preppy inspiration&#44; look to the likes of <strong>Jacqueline Kennedy Onassis</strong> and <strong>Audrey Hepburn</strong>&#44; who epitomized effortless elegance with their classic style. Take note of their penchant for simple&#44; high-quality pieces like tailored blazers&#44; fitted dresses&#44; and <strong>statement accessories</strong>.</p>
@@ -40,7 +40,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>Want to <strong>dress up</strong> for a night out&#63; Swap your graphic tee for a crisp white button-down and add a blazer. Want to keep things <strong>casual for a weekend brunch</strong>&#63; Pair your jeans with a comfy sweater and sneakers.</p>
 <p>The beauty of quality denim lies in its ability to blend seamlessly into any eclectic ensemble. Whether you&#39;re pairing your jeans with a flowy sundress or a tailored leather jacket&#44; the right pair of jeans will always be the anchor that ties the look together.</p>
 <h2>Dress Shirts for Every Occasion</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/formal_and_casual_options.jpg" alt="formal and casual options" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/formal_and_casual_options.jpg" alt="formal and casual options" style="aspect-ratio: 16/9;"></div>
 <p>As you upgrade your wardrobe to <strong>yacht-worthy</strong> status&#44; a versatile collection of dress shirts is essential.</p>
 <p>You&#39;ll want to consider a range of <strong>classic fit options</strong> to suit different body types and occasions&#44; from tailored slim-fits for formal events to relaxed fits for casual gatherings.</p>
 <h3>Classic Fit Options</h3>
@@ -74,7 +74,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li><strong>Fit is everything</strong>&#58; Make sure your blazer fits well and isn&#39;t too tight or too loose. You want to be able to move freely and feel confident.</li>
 </ul>
 <h2>Accessories That Make or Break</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/small_details_big_impact.jpg" alt="small details big impact" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/small_details_big_impact.jpg" alt="small details big impact" style="aspect-ratio: 16/9;"></div>
 <p>Now that you&#39;ve nailed the perfect blazer&#44; it&#39;s time to focus on the accessories that can either elevate or sink your entire outfit &#8211; think of them as the anchors that keep your look grounded or the rudders that steer it off course.</p>
 <p>As a prep enthusiast&#44; you know that accessorizing is all about striking the right balance. When it comes to topping off your look&#44; <strong>Preppy hats</strong> are a must-try. From fedoras to boater hats&#44; a <strong>classic Preppy hat</strong> adds a touch of sophistication and whimsy to your outfit.</p>
 <p>Statement jewelry is another <strong>essential</strong> in the preppy playbook. Whether it&#39;s a chunky anchor-shaped necklace or a bold stripe-print cuff&#44; <strong>statement jewelry</strong> has the power to make your outfit pop.</p>

@@ -16,7 +16,7 @@ featured_image: null
 <li>A tailored hem that hits just above the hip creates a streamlined silhouette and balanced proportions.</li>
 </ul>
 <h2>Start With a Baseline Measurement</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/establish_a_starting_point.jpg" alt="establish a starting point" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/establish_a_starting_point.jpg" alt="establish a starting point" style="aspect-ratio: 16/9;"></div>
 <p>To start customizing your button-down shirt&#44; you&#39;ll need to take a <strong>baseline measurement</strong> of your current shirt&#39;s collar. This will give you a foundation to work from&#44; allowing you to make adjustments that cater to your unique body type.</p>
 <p>Whether you&#39;re an <strong>athletic build</strong> or a more slender frame&#44; understanding your measurements is key to a <strong>tailored fit</strong>. Take note of the measurement variations that work best for you. If you have a <strong>longer torso</strong>&#44; you may want to consider a longer shirt length. Conversely&#44; if you have <strong>shorter arms</strong>&#44; a shorter sleeve length may be in order.</p>
 <p>Don&#39;t be afraid to experiment and find what works best for your body type. A <strong>well-fitting shirt</strong> can make all the difference in your <strong>overall look</strong> and confidence.</p>
@@ -28,7 +28,7 @@ featured_image: null
 <p>If you want to add a touch of sophistication to your shirt&#44; consider fabrics with a <strong>subtle texture</strong> or pattern&#44; such as Oxford cloth or pinpoint cotton.</p>
 <p>Avoid <strong>synthetic fabrics</strong> like polyester or nylon&#44; as they can appear cheap and lack the finesse of natural fibers.</p>
 <h2>Nailing the Collar Style Options</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/perfecting_the_collar_fit.jpg" alt="perfecting the collar fit" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/perfecting_the_collar_fit.jpg" alt="perfecting the collar fit" style="aspect-ratio: 16/9;"></div>
 <p>Now that you&#39;ve chosen the perfect fabric&#44; it&#39;s time to focus on the collar style that will elevate your <strong>button-down shirt game</strong>.</p>
 <p>You&#39;ll want to consider three key options&#58; the <strong>classic collar</strong>&#44; which is timeless and versatile&#59; the spread collar&#44; which adds a touch of sophistication&#59; and the pinpoint collar&#44; which offers a sleek&#44; modern twist.</p>
 <h3>Classic Collar Style</h3>
@@ -61,7 +61,7 @@ featured_image: null
 <p>For taller frames&#44; focus on creating a balanced silhouette by pairing a fitted button-down with a flowy bottom or a pencil skirt. This will break up the length of your body and create a more feminine&#44; proportionate look.</p>
 <p>Regardless of your body type&#44; waist accentuation is key to creating a polished&#44; <strong>put-together look</strong>. Experiment with different styles and find what works best for your unique shape. By embracing your proportions and accentuating your waist&#44; you&#39;ll be well on your way to rocking a button-down shirt like a pro. Remember&#44; it&#39;s all about creating a balanced&#44; proportionate silhouette that makes you feel confident and stylish.</p>
 <h2>Shoulder Pads Vs. No Pads Decision</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/protective_gear_in_sports.jpg" alt="protective gear in sports" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/protective_gear_in_sports.jpg" alt="protective gear in sports" style="aspect-ratio: 16/9;"></div>
 <p>Your perfectly proportioned button-down silhouette is almost complete&#44; but one key element can make or break the overall aesthetic&#58; shoulder pads. While they can add a polished touch to your look&#44; they&#39;re not the only option.</p>
 <p>Shoulder pads can enhance your shoulders and create a more masculine&#44; streamlined silhouette. However&#44; if you&#39;re petite or have delicate shoulders&#44; pads might overwhelm your frame. If you still want the benefits of pads without the bulk&#44; consider shoulder pad alternatives like fabric-draping techniques or carefully placed seams.</p>
 <p>Four scenarios to consider when deciding between shoulder pads and no pads&#58;</p>
@@ -107,7 +107,7 @@ featured_image: null
 </table>
 <p>When adjusting your sleeve length&#44; don&#39;t forget to consider button placement. By ensuring your buttons are placed proportionally to your sleeve length&#44; you can create a customized&#44; fitted look that elevates your style. By perfecting your sleeve length fit&#44; you&#39;ll be one step closer to looking like a million bucks.</p>
 <h2>Creating a Balanced Body Fit</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/harmonizing_body_and_mind.jpg" alt="harmonizing body and mind" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/harmonizing_body_and_mind.jpg" alt="harmonizing body and mind" style="aspect-ratio: 16/9;"></div>
 <p>Now that you&#39;ve nailed the perfect sleeve length&#44; it&#39;s time to focus on creating a balanced body fit that complements your tailored sleeves and elevates your overall style.</p>
 <p>A well-fitted shirt can make or break your entire look&#44; and it all starts with body shaping. You want to create a silhouette that&#39;s streamlined&#44; yet relaxed &#8211; not too tight&#44; not too loose.</p>
 <p>To achieve this&#44; pay attention to the following key areas&#58;</p>

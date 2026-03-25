@@ -4,7 +4,7 @@ slug: "jack-black-beard-grooming-kit-review"
 date: "2024-07-28T04:07:58"
 categories: ["Men's Accessories"]
 excerpt: "Discover how the Jack Black Beard Grooming Kit elevates your beard care routine. Get insider tips for a sleek, well-maintained look! "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_335.png"
+featured_image: "/redikicks-astro/images/featured_image_335.png"
 ---
 
 
@@ -132,7 +132,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://redikicks.com/wp-content/uploads/2024/07/71gJX3V8pL._SL1500_-1024x1024.jpg" alt="jack black beard grooming kit" class="wp-image-399" srcset="https://redikicks.com/wp-content/uploads/2024/07/71gJX3V8pL._SL1500_-1024x1024.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/07/71gJX3V8pL._SL1500_-300x300.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/71gJX3V8pL._SL1500_-150x150.jpg 150w, https://redikicks.com/wp-content/uploads/2024/07/71gJX3V8pL._SL1500_-768x768.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/71gJX3V8pL._SL1500_.jpg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="1024" src="/redikicks-astro/images/71gJX3V8pL._SL1500_-1024x1024.jpg" alt="jack black beard grooming kit" class="wp-image-399" srcset="/redikicks-astro/images/71gJX3V8pL._SL1500_-1024x1024.jpg 1024w, /redikicks-astro/images/71gJX3V8pL._SL1500_-300x300.jpg 300w, /redikicks-astro/images/71gJX3V8pL._SL1500_-150x150.jpg 150w, /redikicks-astro/images/71gJX3V8pL._SL1500_-768x768.jpg 768w, /redikicks-astro/images/71gJX3V8pL._SL1500_.jpg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 

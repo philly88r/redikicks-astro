@@ -4,7 +4,7 @@ slug: "what-are-the-steps-for-straight-razor-shaving"
 date: "2024-08-20T22:32:29"
 categories: ["Uncategorized"]
 excerpt: "Unlock the secrets to a perfect straight razor shave with essential steps that ensure a smooth finish, and discover more techniques to enhance your experience. "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_4499.png"
+featured_image: "/redikicks-astro/images/featured_image_4499.png"
 ---
 
 <p>To achieve a successful straight razor shave, start by gathering your supplies, including a quality razor and strop. Clean your face with warm water, then apply pre-shave oil or lotion for moisturizing. Soften your hair with a warm towel and lather up using a quality shaving cream. Maintain a 30-degree blade angle while shaving with short strokes, applying gentle pressure. Rinse the blade often and cleanse your face with cool water after shaving. Finally, moisturize with an aftershave balm. Master these steps for optimal results, and there&#39;s plenty more to explore for perfecting your technique.</p>
@@ -17,7 +17,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>After shaving, rinse the blade, splash your face with cool water, and apply aftershave balm to soothe the skin and lock in moisture.</li>
 </ul>
 <h2>Gather Your Supplies</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/collect_necessary_materials.jpg" alt="collect necessary materials" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/collect_necessary_materials.jpg" alt="collect necessary materials" style="aspect-ratio: 16/9;"></div>
 <p>To begin your straight razor shaving journey, you&#39;ll need to gather essential supplies that ensure a smooth and safe experience. First, invest in a high-quality straight razor; look for one that feels comfortable in your hand and has a well-maintained blade. The historical significance of straight razors dates back centuries, symbolizing craftsmanship and personal grooming mastery.</p>
 <p>Next, consider a strop for maintaining your razor&#39;s edge. Regular stropping is crucial for optimal performance, enhancing your shaving experience.</p>
 <p>You&#39;ll also need a shaving brush and high-quality shaving soap or cream. A brush helps create a rich lather, enabling the blade to glide effortlessly over your skin.</p>
@@ -32,7 +32,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>Lastly, don&#39;t rush this step. Take your time to thoroughly prepare your skin; the better the preparation, the smoother the shave.</p>
 <p>Once your skin is hydrated and ready, you&#39;ll be set for the next step of softening your hair, which is equally essential for a successful straight razor shave.</p>
 <h2>Soften the Hair</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/gentle_hair_conditioning_treatment.jpg" alt="gentle hair conditioning treatment" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/gentle_hair_conditioning_treatment.jpg" alt="gentle hair conditioning treatment" style="aspect-ratio: 16/9;"></div>
 <p>Soften the hair for a smoother shaving experience by applying a warm, damp towel to your face. This initial step opens your pores and relaxes the hair follicles, making it easier for the razor to glide over your skin. Leave the towel on for about two to three minutes, ensuring that the warmth penetrates effectively.</p>
 <p>Next, choose a high-quality shaving cream tailored to your specific hair type. Whether you have coarse, fine, or curly hair, using the right product can significantly enhance your shaving experience.</p>
 <p>For thicker hair types, look for creams with added moisturizers; they help soften the hair further, reducing the risk of irritation. If your hair is fine, lighter creams will suffice and provide a smooth glide.</p>
@@ -53,7 +53,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>After several passes, check the blade for sharpness by gently running your thumb along the edge&#8212;never across it. You should feel a slight bite if the blade is adequately honed.</p>
 <p>Regular blade maintenance is crucial. Hone your razor every few uses to prevent dullness, and consider using a finer grit stone for finishing.</p>
 <h2>Lather Up Properly</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/effective_soap_application_technique.jpg" alt="effective soap application technique" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/effective_soap_application_technique.jpg" alt="effective soap application technique" style="aspect-ratio: 16/9;"></div>
 <p>Achieving a rich, creamy lather is crucial for an effective straight razor shave. Start by selecting high-quality shaving products, such as creams or soaps designed specifically for straight razor use. These products vary in lather types, including glycerin-based, tallow-based, or vegan options, each providing unique benefits.</p>
 <p>To create the perfect lather, use a shaving brush. Wet the brush with warm water, then load it with your chosen product by swirling the brush in the container. This incorporates air into the mix, which is essential for a voluminous lather.</p>
 <p>Next, transfer the loaded brush to a bowl or directly onto your face. Add small amounts of water as needed while you whip the lather into a frothy consistency. Aim for a texture that&#39;s thick yet spreadable, allowing it to cling to your skin and hair.</p>
@@ -64,7 +64,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>Consider employing a thumb-over grip, where your thumb rests on the spine of the blade. This method enhances precision, particularly when maneuvering around delicate areas. Alternatively, the thumb-under grip can provide extra control when working along the jawline. Whichever technique you choose, ensure your grip is firm but not overly tight&#8212;too much tension can lead to fatigue and compromise your technique.</p>
 <p>As you practice, pay attention to how your hand positioning affects your shaving angle and comfort level. Developing a relaxed yet purposeful grip will empower you to master the straight razor, allowing for a seamless and liberating shaving experience.</p>
 <h2>Find the Right Angle</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/identify_the_correct_angle.jpg" alt="identify the correct angle" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/identify_the_correct_angle.jpg" alt="identify the correct angle" style="aspect-ratio: 16/9;"></div>
 <p>Finding the right angle is crucial for a successful straight razor shave. You want to position the blade at approximately a 30-degree angle against your skin. This angle ensures optimal blade alignment, allowing the razor to glide smoothly while effectively cutting hair. If the angle is too steep, you risk nicking yourself or causing irritation; too shallow, and you won&#39;t achieve a close shave.</p>
 <p>To maintain this angle, tilt the razor slightly away from your face as you move it in short, controlled strokes. Pay close attention to your shaving pressure; you should let the weight of the razor do most of the work. Pressing too hard can compromise both blade alignment and your skin&#39;s integrity, leading to cuts or razor burn.</p>
 <p>Start with the grain of your hair growth and adjust your angle as needed for different areas of your face. Experimentation is key &#8212; find what feels comfortable and effective for you.</p>
@@ -99,7 +99,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 </tbody>
 </table>
 <h2>Rinse and Clean</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/wash_and_sanitize_thoroughly.jpg" alt="wash and sanitize thoroughly" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/wash_and_sanitize_thoroughly.jpg" alt="wash and sanitize thoroughly" style="aspect-ratio: 16/9;"></div>
 <p>Achieving a clean and refreshing finish is crucial after shaving, and rinsing the blade properly is an essential part of this process. Start by rinsing your straight razor under warm running water. This helps remove hair, shaving cream, and any residue that may have accumulated during your shave. Ensure you rinse both sides of the blade thoroughly to maintain its integrity and sharpness.</p>
 <p>Next, don&#39;t forget about your skin. After rinsing the blade, it&#39;s time for your post shave care routine. Gently splash your face with cool water to close your pores and enhance skin hydration. This step is vital in preventing irritation and promoting a smooth complexion.</p>
 <p>After rinsing, pat your face dry with a clean towel, avoiding any aggressive rubbing. You want to preserve that delicate moisture balance.</p>

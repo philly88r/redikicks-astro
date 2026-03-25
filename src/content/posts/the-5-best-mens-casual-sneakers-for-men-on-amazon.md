@@ -4,7 +4,7 @@ slug: "the-5-best-mens-casual-sneakers-for-men-on-amazon"
 date: "2024-07-26T19:10:32"
 categories: ["Mens Footwear"]
 excerpt: "We tested dozens of casual sneakers, and these are the 5 best to wear this fall with jeans, khakis, and shorts. "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_36.png"
+featured_image: "/redikicks-astro/images/featured_image_36.png"
 ---
 
 
@@ -45,7 +45,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 <div class="wp-box">
 <div class="wp-ctrl sketch"><a class="wp-link" href="https://www.amazon.com/adidas-Daily-Skate-Black-White/dp/B07ZSC7QSQ/ref=sr_1_1_mod_primary_new?crid=2KB7Z7PLM7YET&amp;dib=eyJ2IjoiMSJ9.RD7hpNutB_L5VuHL1DM0Qg.gbDMNgPEC_X5xanrAFjSLwW-I2CjAMdAifKZQ55smys&amp;dib_tag=se&amp;keywords=B07ZSC7QSQ&amp;qid=1722020372&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=b07zsc7qsq%2Caps%2C157&amp;sr=8-1&amp;tag=fitness330a-20" target="_blank" rel="nofollow noopener">adidas Men&#8217;s Daily 3.0 Sneaker</a></div>
-<figure><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-38" src="https://redikicks.com/wp-content/uploads/2024/07/lowy-1024x436.jpg" alt="" width="832" height="354" srcset="https://redikicks.com/wp-content/uploads/2024/07/lowy-1024x436.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/07/lowy-300x128.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/lowy-768x327.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/lowy.jpg 1100w" sizes="(max-width: 832px) 100vw, 832px" /></figure><div class="wp-img"></div>
+<figure><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-38" src="/redikicks-astro/images/lowy-1024x436.jpg" alt="" width="832" height="354" srcset="/redikicks-astro/images/lowy-1024x436.jpg 1024w, /redikicks-astro/images/lowy-300x128.jpg 300w, /redikicks-astro/images/lowy-768x327.jpg 768w, /redikicks-astro/images/lowy.jpg 1100w" sizes="(max-width: 832px) 100vw, 832px" /></figure><div class="wp-img"></div>
 <div class="wed-field">
 <p class="wed-field-text features" data-key="product-features" data-placeholder="Features... to generate click the AI Write button">Best Cheap Adidas Sneakers</p>
 </div>
@@ -73,7 +73,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 <div class="wp-box">
 <div class="wp-ctrl sketch"><a class="wp-link" href="https://www.amazon.com/adidas-Mens-Park-Sneaker-White/dp/B0BHPVYRJJ/ref=sr_1_1?crid=2GTZLNVYRLTTM&amp;dib=eyJ2IjoiMSJ9.SPRr2rQyp2FLJrOw-RTp1Q.v0MRXaTTrbJThpTRjMtvMV4h1nC7L09k0D4yPwCfRM8&amp;dib_tag=se&amp;keywords=B0BHPVYRJJ&amp;qid=1722020472&amp;sprefix=b0bhpvyrjj%2Caps%2C132&amp;sr=8-1&amp;tag=fitness330a-20" target="_blank" rel="nofollow noopener">adidas Men&#8217;s Park Street Sneaker</a></div>
-<figure><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-39" src="https://redikicks.com/wp-content/uploads/2024/07/lowz-1024x658.jpg" alt="" width="832" height="535" srcset="https://redikicks.com/wp-content/uploads/2024/07/lowz-1024x658.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/07/lowz-300x193.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/lowz-768x494.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/lowz.jpg 1456w" sizes="(max-width: 832px) 100vw, 832px" /></figure><div class="wp-img"></div>
+<figure><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-39" src="/redikicks-astro/images/lowz-1024x658.jpg" alt="" width="832" height="535" srcset="/redikicks-astro/images/lowz-1024x658.jpg 1024w, /redikicks-astro/images/lowz-300x193.jpg 300w, /redikicks-astro/images/lowz-768x494.jpg 768w, /redikicks-astro/images/lowz.jpg 1456w" sizes="(max-width: 832px) 100vw, 832px" /></figure><div class="wp-img"></div>
 <div class="wed-field">
 <p class="wed-field-text features" data-key="product-features" data-placeholder="Features... to generate click the AI Write button">Best white Adidas shoes for men</p>
 </div>
@@ -102,7 +102,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 <div class="wp-box">
 <div class="wp-ctrl sketch"><a class="wp-link" href="https://www.amazon.com/New-Balance-Sneaker-White-Aluminum/dp/B09YBT5J92/ref=sr_1_1?crid=PS083VSW01VI&amp;dib=eyJ2IjoiMSJ9.ZJnC7104onOgpzFvZlD6JA.JMidIHwlkuE1uPgOOMhdLbF86GlMJShBVYoQlz9cAD4&amp;dib_tag=se&amp;keywords=B09YBT5J92&amp;qid=1722020523&amp;sprefix=b09ybt5j92%2Caps%2C138&amp;sr=8-1&amp;tag=fitness330a-20" target="_blank" rel="nofollow noopener">New Balance men&#8217;s 515 V3 Classic Sneaker</a></div>
-<figure><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-40" src="https://redikicks.com/wp-content/uploads/2024/07/lox0.jpg" alt="" width="785" height="425" srcset="https://redikicks.com/wp-content/uploads/2024/07/lox0.jpg 785w, https://redikicks.com/wp-content/uploads/2024/07/lox0-300x162.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/lox0-768x416.jpg 768w" sizes="(max-width: 785px) 100vw, 785px" /></figure><div class="wp-img"></div>
+<figure><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-40" src="/redikicks-astro/images/lox0.jpg" alt="" width="785" height="425" srcset="/redikicks-astro/images/lox0.jpg 785w, /redikicks-astro/images/lox0-300x162.jpg 300w, /redikicks-astro/images/lox0-768x416.jpg 768w" sizes="(max-width: 785px) 100vw, 785px" /></figure><div class="wp-img"></div>
 <div class="wed-field">
 <p class="wed-field-text features" data-key="product-features" data-placeholder="Features... to generate click the AI Write button">The best men&#8217;s walking shoes overall</p>
 </div>

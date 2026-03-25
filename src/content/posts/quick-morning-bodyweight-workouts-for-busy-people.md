@@ -4,7 +4,7 @@ slug: "quick-morning-bodyweight-workouts-for-busy-people"
 date: "2025-03-04T09:48:27"
 categories: ["Fitness"]
 excerpt: "Table of Contents Your Quick Morning Bodyweight Workout Outline Why a Quick Read more "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_5978.png"
+featured_image: "/redikicks-astro/images/featured_image_5978.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>
@@ -71,7 +71,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 }
 </style>
 <h2 class="wp-block-heading" id="your-quick-morning-bodyweight-workout-outline">Your Quick Morning Bodyweight Workout Outline</h2>
-<figure class="wp-block-image aligncenter size-large is-resized"><img alt="Your Quick Morning Bodyweight Workout Outline" class="wp-image-5982" decoding="async" height="600" loading="lazy" src="https://redikicks.com/wp-content/uploads/2025/03/section_0_5978.png" width="800"/><figcaption class="wp-element-caption">Your Quick Morning Bodyweight Workout Outline</figcaption></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="Your Quick Morning Bodyweight Workout Outline" class="wp-image-5982" decoding="async" height="600" loading="lazy" src="/redikicks-astro/images/section_0_5978.png" width="800"/><figcaption class="wp-element-caption">Your Quick Morning Bodyweight Workout Outline</figcaption></figure>
 <div style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); border-left: 4px solid #4CAF50; padding: 20px; margin: 40px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(76, 175, 80, 0.1);">
 <strong>Pro Tip:</strong> **Pro Tip:** Maximize your 10-minute bodyweight workouts by using an interval timer to structure your exercises and rest periods. This will not only boost intensity but also help you maintain proper form, leading to better results in less time.
 </div>
@@ -171,7 +171,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>You’ll also need an <b>open space</b>, a safe area to perform exercises without obstacles. A minimum recommended space of 6ft x 6ft is usually sufficient.</p>
 <p>Finally, and most importantly, focus on <b>proper form</b>. This is crucial to prevent injuries and maximize the effectiveness of each exercise. Watch videos and practice correct form before increasing intensity.</p>
 <h2 class="wp-block-heading" id="detailed-quick-morning-bodyweight-workout-outline">Detailed Quick Morning Bodyweight Workout Outline</h2>
-<figure class="wp-block-image aligncenter size-large is-resized"><img alt="Detailed Quick Morning Bodyweight Workout Outline" class="wp-image-5983" decoding="async" height="600" loading="lazy" src="https://redikicks.com/wp-content/uploads/2025/03/section_2_5978.png" width="800"/><figcaption class="wp-element-caption">Detailed Quick Morning Bodyweight Workout Outline</figcaption></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="Detailed Quick Morning Bodyweight Workout Outline" class="wp-image-5983" decoding="async" height="600" loading="lazy" src="/redikicks-astro/images/section_2_5978.png" width="800"/><figcaption class="wp-element-caption">Detailed Quick Morning Bodyweight Workout Outline</figcaption></figure>
 <div style="background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%); border-left: 4px solid #03A9F4; padding: 20px; margin: 40px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(3, 169, 244, 0.1);">
 <strong>Key Takeaway:</strong> This guide offers diverse quick morning bodyweight workouts, from strength-focused routines to plyometric circuits and coordination drills, all designed to be time-efficient. By alternating between high-intensity exercises and active recovery periods, you can effectively build strength, endurance, and cardiovascular fitness without needing equipment or a lengthy time commitment.
 </div>

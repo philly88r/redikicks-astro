@@ -270,7 +270,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="768" height="1024" src="https://redikicks.com/wp-content/uploads/2024/07/815aw78Wu3L-768x1024.jpg" alt="Eddie Bauer Men's Winter Boots in real world " class="wp-image-103" srcset="https://redikicks.com/wp-content/uploads/2024/07/815aw78Wu3L-768x1024.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/815aw78Wu3L-225x300.jpg 225w, https://redikicks.com/wp-content/uploads/2024/07/815aw78Wu3L-1152x1536.jpg 1152w, https://redikicks.com/wp-content/uploads/2024/07/815aw78Wu3L.jpg 1224w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">Version 1.0.0</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="768" height="1024" src="/redikicks-astro/images/815aw78Wu3L-768x1024.jpg" alt="Eddie Bauer Men's Winter Boots in real world " class="wp-image-103" srcset="/redikicks-astro/images/815aw78Wu3L-768x1024.jpg 768w, /redikicks-astro/images/815aw78Wu3L-225x300.jpg 225w, /redikicks-astro/images/815aw78Wu3L-1152x1536.jpg 1152w, /redikicks-astro/images/815aw78Wu3L.jpg 1224w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">Version 1.0.0</figcaption></figure>
 
 
 
@@ -378,7 +378,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="530" height="695" src="https://redikicks.com/wp-content/uploads/2024/07/71rx6rFBRVS._AC_SY695_.jpg" alt="" class="wp-image-104" srcset="https://redikicks.com/wp-content/uploads/2024/07/71rx6rFBRVS._AC_SY695_.jpg 530w, https://redikicks.com/wp-content/uploads/2024/07/71rx6rFBRVS._AC_SY695_-229x300.jpg 229w" sizes="(max-width: 530px) 100vw, 530px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="530" height="695" src="/redikicks-astro/images/71rx6rFBRVS._AC_SY695_.jpg" alt="" class="wp-image-104" srcset="/redikicks-astro/images/71rx6rFBRVS._AC_SY695_.jpg 530w, /redikicks-astro/images/71rx6rFBRVS._AC_SY695_-229x300.jpg 229w" sizes="(max-width: 530px) 100vw, 530px" /></figure>
 
 
 

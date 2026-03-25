@@ -4,7 +4,7 @@ slug: "check-out-stylish-derby-shoes-for-men-on-amazon"
 date: "2024-07-26T20:00:05"
 categories: ["Mens Footwear"]
 excerpt: "Discover the perfect pair of Men&#8217;s Derby Shoes on Amazon. I&#8217;ve curated a selection of stylish, comfortable options for every occasion. Elevate your wardrobe today! "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_66.png"
+featured_image: "/redikicks-astro/images/featured_image_66.png"
 ---
 
 
@@ -315,7 +315,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="695" src="https://redikicks.com/wp-content/uploads/2024/07/71v4G6UG-ZL._AC_SY695_.jpg" alt="model wearing men's derby shoes" class="wp-image-146" srcset="https://redikicks.com/wp-content/uploads/2024/07/71v4G6UG-ZL._AC_SY695_.jpg 695w, https://redikicks.com/wp-content/uploads/2024/07/71v4G6UG-ZL._AC_SY695_-300x300.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/71v4G6UG-ZL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="695" src="/redikicks-astro/images/71v4G6UG-ZL._AC_SY695_.jpg" alt="model wearing men's derby shoes" class="wp-image-146" srcset="/redikicks-astro/images/71v4G6UG-ZL._AC_SY695_.jpg 695w, /redikicks-astro/images/71v4G6UG-ZL._AC_SY695_-300x300.jpg 300w, /redikicks-astro/images/71v4G6UG-ZL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
 
 
 

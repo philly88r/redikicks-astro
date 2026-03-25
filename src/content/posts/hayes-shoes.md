@@ -4,7 +4,7 @@ slug: "hayes-shoes"
 date: "2024-07-27T12:48:32"
 categories: ["Mens Footwear"]
 excerpt: "Discover comfort and style at Hayes Shoes. I offer a wide selection of footwear, from leather boots to comfortable sneakers. Find your perfect fit today and step out in confidence. "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_75.png"
+featured_image: "/redikicks-astro/images/featured_image_75.png"
 ---
 
 <p>Have you ever looked for a brand that combines <b>comfort</b> and fashion? <b>Hayes Shoes</b> is that brand. They&#8217;ve been leading the way in <b>style</b> and <b>comfort</b> for years.</p>
@@ -23,7 +23,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <h3>A Legacy of Craftsmanship and Quality</h3>
 <p>Our success comes from loving the art of shoemaking. Our team is proud of their work. They make sure every shoe is the best it can be.</p>
 <p>Customers love our great customer service and knowledgeable staff. They help find the perfect shoes for everyone. Hayes Shoes is the top choice for <strong>quality</strong> and comfort in footwear.</p>
-<p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-77" title="hayes shoes brand" src="https://redikicks.com/wp-content/uploads/2024/07/hayes-shoes-brand-1024x585.jpg" alt="hayes shoes brand" width="832" height="475" srcset="https://redikicks.com/wp-content/uploads/2024/07/hayes-shoes-brand-1024x585.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/07/hayes-shoes-brand-300x171.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/hayes-shoes-brand-768x439.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/hayes-shoes-brand.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-77" title="hayes shoes brand" src="/redikicks-astro/images/hayes-shoes-brand-1024x585.jpg" alt="hayes shoes brand" width="832" height="475" srcset="/redikicks-astro/images/hayes-shoes-brand-1024x585.jpg 1024w, /redikicks-astro/images/hayes-shoes-brand-300x171.jpg 300w, /redikicks-astro/images/hayes-shoes-brand-768x439.jpg 768w, /redikicks-astro/images/hayes-shoes-brand.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
 <blockquote><p>&#8220;The employees at Hayes Shoes are incredibly helpful and knowledgeable. They took the time to understand my needs and helped me find the perfect pair of work boots that are both comfortable and durable.&#8221;</p></blockquote>
 <h2>Leather Boots: Timeless and Versatile</h2>
 <p>At Hayes Shoes, we&#8217;re proud of our amazing <a href="https://www.justmenshoes.com/products/hayes" target="_blank" rel="nofollow noopener">leather boots</a>. Made from top-quality materials, these boots are stylish and durable. Whether you want something sleek for dress-up or rugged for outdoor adventures, we have it all.</p>
@@ -36,7 +36,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Free shipping on orders over $75 and easy 30-day returns</li>
 </ul>
 <p>Get a pair of Hayes <b>leather boots</b> today for <b>style</b> and comfort that lasts. With free shipping and easy returns, you can shop with confidence. You&#8217;ll find the perfect boots to match your <b>style</b>.</p>
-<p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-78" title="leather boots" src="https://redikicks.com/wp-content/uploads/2024/07/leather-boots-1024x585.jpg" alt="leather boots" width="832" height="475" srcset="https://redikicks.com/wp-content/uploads/2024/07/leather-boots-1024x585.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/07/leather-boots-300x171.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/leather-boots-768x439.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/leather-boots.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-78" title="leather boots" src="/redikicks-astro/images/leather-boots-1024x585.jpg" alt="leather boots" width="832" height="475" srcset="/redikicks-astro/images/leather-boots-1024x585.jpg 1024w, /redikicks-astro/images/leather-boots-300x171.jpg 300w, /redikicks-astro/images/leather-boots-768x439.jpg 768w, /redikicks-astro/images/leather-boots.jpg 1344w" sizes="(max-width: 832px) 100vw, 832px" /></p>
 <blockquote><p>&#8220;The Hayes leather boots are the perfect blend of fashion and function. I&#8217;ve worn them to the office, out with friends, and even on outdoor adventures, and they never disappoint.&#8221;</p></blockquote>
 <p>See how <em>timeless</em> and <em>versatile</em> leather boots from Hayes Shoes can change your style. Step out in confidence with our top-quality <b>footwear collection</b>.</p>
 <h2>Comfortable Sneakers for Every Adventure</h2>

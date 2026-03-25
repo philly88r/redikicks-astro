@@ -279,7 +279,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="970" height="300" src="https://redikicks.com/wp-content/uploads/2024/07/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___.jpg" alt="banner for skecher golf" class="wp-image-110" srcset="https://redikicks.com/wp-content/uploads/2024/07/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___.jpg 970w, https://redikicks.com/wp-content/uploads/2024/07/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___-300x93.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___-768x238.jpg 768w" sizes="(max-width: 970px) 100vw, 970px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="970" height="300" src="/redikicks-astro/images/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___.jpg" alt="banner for skecher golf" class="wp-image-110" srcset="/redikicks-astro/images/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___.jpg 970w, /redikicks-astro/images/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___-300x93.jpg 300w, /redikicks-astro/images/b72f13ab-8db7-4854-8e4f-9550abf8ae2f.__CR00970300_PT0_SX970_V1___-768x238.jpg 768w" sizes="(max-width: 970px) 100vw, 970px" /></figure>
 
 
 
@@ -303,7 +303,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="314" src="https://redikicks.com/wp-content/uploads/2024/07/71OcENZnuNL._AC_SX695_.jpg" alt="new balance men's golf shoes" class="wp-image-109" srcset="https://redikicks.com/wp-content/uploads/2024/07/71OcENZnuNL._AC_SX695_.jpg 695w, https://redikicks.com/wp-content/uploads/2024/07/71OcENZnuNL._AC_SX695_-300x136.jpg 300w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="314" src="/redikicks-astro/images/71OcENZnuNL._AC_SX695_.jpg" alt="new balance men's golf shoes" class="wp-image-109" srcset="/redikicks-astro/images/71OcENZnuNL._AC_SX695_.jpg 695w, /redikicks-astro/images/71OcENZnuNL._AC_SX695_-300x136.jpg 300w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
 
 
 

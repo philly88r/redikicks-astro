@@ -4,7 +4,7 @@ slug: "5-best-morning-skincare-routines-for-men"
 date: "2024-08-20T21:17:12"
 categories: ["Uncategorized"]
 excerpt: "Tailor your morning skincare routine with our top 5 picks for men to discover the secret to healthy, vibrant skin. What will work best for you? "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_4386.png"
+featured_image: "/redikicks-astro/images/featured_image_4386.png"
 ---
 
 <p>To achieve healthy skin, tailoring your morning skincare routine is essential. For oily skin, start with a gentle foaming cleanser with salicylic acid, followed by an oil-free moisturizer and non-comedogenic sunscreen. Dry skin benefits from a hydrating cleanser, a vitamin C serum, and a rich moisturizer with ceramides. If you have sensitive skin, use a soothing cleanser, lightweight moisturizer, and broad-spectrum sunscreen. For combination skin, choose a sulfate-free cleanser, mild exfoliant, and gel-based moisturizer. Active lifestyles require a gentle cleanser, hydrating spray, and lightweight moisturizer with SPF. There&#39;s much more to explore for optimal results.</p>
@@ -17,7 +17,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Tailor your routine to your lifestyle; incorporate a hydrating spray post-activity if you lead an active life.</li>
 </ul>
 <h2>Routine for Oily Skin</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/oily_skin_care_routine.jpg" alt="oily skin care routine" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/oily_skin_care_routine.jpg" alt="oily skin care routine" style="aspect-ratio: 16/9;"></div>
 <p>If you have oily skin, establishing a tailored skincare routine is essential for managing excess shine and preventing breakouts.</p>
 <p>Start your morning with a gentle foaming cleanser that contains salicylic acid; this ingredient helps to unclog pores and reduce oiliness.</p>
 <p>After cleansing, consider incorporating exfoliation techniques into your routine. Use a chemical exfoliant containing glycolic acid two to three times a week. This will help remove dead skin cells, preventing the buildup that can lead to acne.</p>
@@ -32,7 +32,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>Don&#39;t forget to apply a broad-spectrum sunscreen, even on cloudy days, to protect your skin from UV damage.</p>
 <p>Lastly, incorporate hydration techniques such as drinking plenty of water and using a humidifier in your home.</p>
 <h2>Routine for Sensitive Skin</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/gentle_care_for_irritated_skin.jpg" alt="gentle care for irritated skin" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/gentle_care_for_irritated_skin.jpg" alt="gentle care for irritated skin" style="aspect-ratio: 16/9;"></div>
 <p>For those with sensitive skin, finding the right skincare routine is vital to prevent irritation and maintain a calm complexion. Start your morning with a gentle cleanser that effectively removes dirt without stripping your skin&#39;s natural moisture. Look for soothing ingredients like aloe vera or chamomile to provide a soothing effect.</p>
 <p>After cleansing, apply a lightweight moisturizer infused with calming agents such as green tea or hyaluronic acid. These ingredients not only hydrate but also help to reduce redness and irritation. Don&#39;t forget to finish off with a broad-spectrum sunscreen to protect your skin from harmful UV rays.</p>
 <p>Here&#39;s a quick reference table to guide your routine:</p>
@@ -68,7 +68,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Moisturizer: Choose a lightweight, non-comedogenic moisturizer that hydrates without clogging pores. Gel-based options often work best for combination skin.</li>
 </ol>
 <h2>Routine for Active Lifestyles</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/active_lifestyle_daily_routine.jpg" alt="active lifestyle daily routine" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1022" height="575" src="/redikicks-astro/images/active_lifestyle_daily_routine.jpg" alt="active lifestyle daily routine" style="aspect-ratio: 16/9;"></div>
 <p>Staying active often means your skin faces unique challenges, from sweat and environmental pollutants to increased exposure to the sun. To keep your skin healthy and refreshed, develop a morning skincare routine tailored for your active lifestyle. Here&#39;s a simple guide:</p>
 <table>
 <thead>

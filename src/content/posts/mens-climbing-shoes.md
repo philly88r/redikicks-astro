@@ -4,7 +4,7 @@ slug: "mens-climbing-shoes"
 date: "2024-07-26T20:02:38"
 categories: ["Mens Footwear"]
 excerpt: "Discover top-rated Men&#8217;s Climbing Shoes on Amazon. I&#8217;ve curated the best options for comfort, grip, and performance. Find your perfect fit today! "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_67.png"
+featured_image: "/redikicks-astro/images/featured_image_67.png"
 ---
 
 
@@ -470,7 +470,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="575" height="525" src="https://redikicks.com/wp-content/uploads/2024/07/71-Xc7USTqL._AC_SX575_.jpg" alt="men's climbing shoes sportiva" class="wp-image-137" srcset="https://redikicks.com/wp-content/uploads/2024/07/71-Xc7USTqL._AC_SX575_.jpg 575w, https://redikicks.com/wp-content/uploads/2024/07/71-Xc7USTqL._AC_SX575_-300x274.jpg 300w" sizes="(max-width: 575px) 100vw, 575px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="575" height="525" src="/redikicks-astro/images/71-Xc7USTqL._AC_SX575_.jpg" alt="men's climbing shoes sportiva" class="wp-image-137" srcset="/redikicks-astro/images/71-Xc7USTqL._AC_SX575_.jpg 575w, /redikicks-astro/images/71-Xc7USTqL._AC_SX575_-300x274.jpg 300w" sizes="(max-width: 575px) 100vw, 575px" /></figure>
 
 
 
@@ -494,7 +494,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="402" height="1005" src="https://redikicks.com/wp-content/uploads/2024/07/518th3N20tL._AC_SX575_.jpg" alt="bottom of men's climbing shoes" class="wp-image-139" srcset="https://redikicks.com/wp-content/uploads/2024/07/518th3N20tL._AC_SX575_.jpg 402w, https://redikicks.com/wp-content/uploads/2024/07/518th3N20tL._AC_SX575_-120x300.jpg 120w" sizes="(max-width: 402px) 100vw, 402px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="402" height="1005" src="/redikicks-astro/images/518th3N20tL._AC_SX575_.jpg" alt="bottom of men's climbing shoes" class="wp-image-139" srcset="/redikicks-astro/images/518th3N20tL._AC_SX575_.jpg 402w, /redikicks-astro/images/518th3N20tL._AC_SX575_-120x300.jpg 120w" sizes="(max-width: 402px) 100vw, 402px" /></figure>
 
 
 

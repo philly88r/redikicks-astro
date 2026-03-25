@@ -4,7 +4,7 @@ slug: "salary-negotiation-tips-for-men-get-the-pay-you-deserve"
 date: "2024-08-05T20:19:55"
 categories: ["Personal Development"]
 excerpt: "Learn how to confidently negotiate your salary and get the pay you deserve with these expert tips and strategies. "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_1499.png"
+featured_image: "/redikicks-astro/images/featured_image_1499.png"
 ---
 
 <p>To get the pay you deserve&#44; start by <strong>researching your worth</strong> online using resources like Glassdoor&#44; PayScale&#44; or the Bureau of Labor Statistics. Compare <strong>salary data</strong> based on job title&#44; location&#44; and industry&#44; and factor in your experience&#44; education&#44; and location to determine fair compensation. Set clear <strong>salary goals</strong> by assessing your strengths&#44; acknowledging achievements&#44; and recognizing weaknesses. Prepare a <strong>negotiation script</strong> by documenting specific accomplishments and practicing delivery. Timing is everything&#44; so request a salary increase at the right moment&#44; and be prepared to handle common objections. By following these steps&#44; you&#39;ll be well on your way to <strong>securing a salary</strong> that reflects your true value.</p>
@@ -16,7 +16,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Time your negotiation strategically&#44; such as after a successful project or performance review.</li>
 </ul>
 <h2>Research Your Worth Online</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/determine_personal_market_value_online.jpg" alt="determine personal market value online" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/determine_personal_market_value_online.jpg" alt="determine personal market value online" style="aspect-ratio: 16/9;"></div>
 <p>You can determine your market value by researching online resources such as Glassdoor&#44; <strong>PayScale</strong>&#44; or the Bureau of Labor Statistics&#44; which provide salary data based on job titles&#44; locations&#44; and industries. These websites can give you a solid understanding of the average salary range for your position&#44; helping you make a strong case for your desired salary.</p>
 <p>Use industry benchmarking to compare your salary to others in your field&#44; taking into account factors like experience&#44; education&#44; and location.</p>
 <p>When researching&#44; don&#39;t forget to analyze the cost of living in your area. A higher cost of living may justify a higher salary&#44; so be sure to factor this into your calculations. Websites like PayScale and Glassdoor often provide cost of living data&#44; making it easy to get a comprehensive picture of your market value.</p>
@@ -36,7 +36,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <li>Reviewing job postings and descriptions to identify the <strong>salary ranges</strong> for similar positions</li>
 </ul>
 <h2>Prepare Your Negotiation Script</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/prepare_negotiation_script.jpg" alt="prepare negotiation script" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/prepare_negotiation_script.jpg" alt="prepare negotiation script" style="aspect-ratio: 16/9;"></div>
 <p>Now that you&#39;ve set clear <strong>salary goals</strong>&#44; it&#39;s time to prepare your <strong>negotiation script</strong>.</p>
 <p>You&#39;ll want to start by knowing your worth and setting a target salary range that you feel confident and comfortable with. By doing so&#44; you&#39;ll be able to effectively communicate your value to your employer and make a strong case for why you deserve the salary you&#39;re asking for.</p>
 <h3>Know Your Worth</h3>
@@ -62,7 +62,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 <p>After a promotion or new role&#44; when your responsibilities and expectations have increased.</p>
 <p>When <strong>industry standards and market rates</strong> are in your favor.</p>
 <h2>Handling Common Objections</h2>
-<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="https://redikicks.com/wp-content/uploads/2024/08/addressing_customer_concerns_effectively.jpg" alt="addressing customer concerns effectively" style="aspect-ratio: 16/9;"></div>
+<div class="body-image-wrapper" style="margin-bottom:20px;"><img loading="lazy" decoding="async" width="1006" height="575" src="/redikicks-astro/images/addressing_customer_concerns_effectively.jpg" alt="addressing customer concerns effectively" style="aspect-ratio: 16/9;"></div>
 <p>You&#39;ll inevitably face objections during <strong>salary negotiations</strong>&#44; so it&#39;s crucial to anticipate and prepare responses to <strong>common concerns</strong>&#44; such as <strong>budget constraints</strong>&#44; <strong>industry standards</strong>&#44; or <strong>internal equity</strong>. When addressing concerns&#44; it&#39;s essential to listen actively and respond thoughtfully. Ask clarifying questions to understand the root of the objection and provide specific examples or data to counter their concerns.</p>
 <p>For instance&#44; if the employer cites budget constraints&#44; you could suggest alternative solutions&#44; such as a <strong>performance-based raise</strong> or additional benefits.</p>
 <p>When negotiating&#44; be prepared to find compromising positions that meet both parties&#39; needs. This might involve creative problem-solving&#44; such as a phased salary increase or a signing bonus. Remember&#44; the goal is to find a mutually beneficial agreement&#44; not to &#39;win&#39; the negotiation.</p>

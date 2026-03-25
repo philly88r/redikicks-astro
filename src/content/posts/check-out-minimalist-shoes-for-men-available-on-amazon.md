@@ -337,7 +337,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="456" height="500" src="https://redikicks.com/wp-content/uploads/2024/07/412EzIkUL._AC_.jpg" alt="men's minimalist xero shoes" class="wp-image-128" srcset="https://redikicks.com/wp-content/uploads/2024/07/412EzIkUL._AC_.jpg 456w, https://redikicks.com/wp-content/uploads/2024/07/412EzIkUL._AC_-274x300.jpg 274w" sizes="(max-width: 456px) 100vw, 456px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="456" height="500" src="/redikicks-astro/images/412EzIkUL._AC_.jpg" alt="men's minimalist xero shoes" class="wp-image-128" srcset="/redikicks-astro/images/412EzIkUL._AC_.jpg 456w, /redikicks-astro/images/412EzIkUL._AC_-274x300.jpg 274w" sizes="(max-width: 456px) 100vw, 456px" /></figure>
 
 
 
@@ -349,7 +349,7 @@ featured_image: null
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="500" height="304" src="https://redikicks.com/wp-content/uploads/2024/07/81P5wIQKFPL._AC_SX500_.jpg" alt="Whitin Men's minimalist shoes" class="wp-image-130" srcset="https://redikicks.com/wp-content/uploads/2024/07/81P5wIQKFPL._AC_SX500_.jpg 500w, https://redikicks.com/wp-content/uploads/2024/07/81P5wIQKFPL._AC_SX500_-300x182.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="500" height="304" src="/redikicks-astro/images/81P5wIQKFPL._AC_SX500_.jpg" alt="Whitin Men's minimalist shoes" class="wp-image-130" srcset="/redikicks-astro/images/81P5wIQKFPL._AC_SX500_.jpg 500w, /redikicks-astro/images/81P5wIQKFPL._AC_SX500_-300x182.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
 
 
 

@@ -4,7 +4,7 @@ slug: "mens-house-slippers"
 date: "2024-07-26T20:19:21"
 categories: ["Mens Footwear"]
 excerpt: "Discover the perfect men&#8217;s house slippers on Amazon. I&#8217;ve curated a list of cozy, comfortable options for ultimate relaxation at home. Find your ideal pair today! "
-featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_74.png"
+featured_image: "/redikicks-astro/images/featured_image_74.png"
 ---
 
 <div class="hostinger-affiliate-block-list-cards">
@@ -279,8 +279,8 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="695" src="https://redikicks.com/wp-content/uploads/2024/07/81npPZCqTQL._AC_SY695_.jpg" alt="man relaxing in comfortable men's house slippers
-" class="wp-image-99" srcset="https://redikicks.com/wp-content/uploads/2024/07/81npPZCqTQL._AC_SY695_.jpg 695w, https://redikicks.com/wp-content/uploads/2024/07/81npPZCqTQL._AC_SY695_-300x300.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/81npPZCqTQL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="695" height="695" src="/redikicks-astro/images/81npPZCqTQL._AC_SY695_.jpg" alt="man relaxing in comfortable men's house slippers
+" class="wp-image-99" srcset="/redikicks-astro/images/81npPZCqTQL._AC_SY695_.jpg 695w, /redikicks-astro/images/81npPZCqTQL._AC_SY695_-300x300.jpg 300w, /redikicks-astro/images/81npPZCqTQL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></figure>
 
 
 
@@ -346,7 +346,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 
 
-<div class="wp-block-stackable-image stk-block-image stk-block stk-5e8709c" data-block-id="5e8709c"><figure><span class="stk-img-wrapper stk-image--shape-stretch"><img loading="lazy" decoding="async" class="stk-img wp-image-100" src="https://redikicks.com/wp-content/uploads/2024/07/71sLAs1caL._AC_SY695_.jpg" width="695" height="695" alt="sizing chart for house slippers" srcset="https://redikicks.com/wp-content/uploads/2024/07/71sLAs1caL._AC_SY695_.jpg 695w, https://redikicks.com/wp-content/uploads/2024/07/71sLAs1caL._AC_SY695_-300x300.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/71sLAs1caL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></span></figure></div>
+<div class="wp-block-stackable-image stk-block-image stk-block stk-5e8709c" data-block-id="5e8709c"><figure><span class="stk-img-wrapper stk-image--shape-stretch"><img loading="lazy" decoding="async" class="stk-img wp-image-100" src="/redikicks-astro/images/71sLAs1caL._AC_SY695_.jpg" width="695" height="695" alt="sizing chart for house slippers" srcset="/redikicks-astro/images/71sLAs1caL._AC_SY695_.jpg 695w, /redikicks-astro/images/71sLAs1caL._AC_SY695_-300x300.jpg 300w, /redikicks-astro/images/71sLAs1caL._AC_SY695_-150x150.jpg 150w" sizes="(max-width: 695px) 100vw, 695px" /></span></figure></div>
 
 
 
@@ -490,7 +490,7 @@ featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image
 
 
 
-<div class="wp-block-stackable-image stk-block-image stk-block stk-9fd7d62 is-style-default" data-block-id="9fd7d62"><style>.stk-9fd7d62 .stk-img-wrapper{height:350px !important}:where(.stk-hover-parent:hover,.stk-hover-parent.stk--is-hovered) .stk-9fd7d62 .stk-img-wrapper::after{background-color:#000000B3 !important}</style><figure><span class="stk-img-wrapper stk-image--shape-stretch"><img loading="lazy" decoding="async" class="stk-img wp-image-98" src="https://redikicks.com/wp-content/uploads/2024/07/61g8if2HyfL._AC_SY695_.jpg" width="1359" height="695" srcset="https://redikicks.com/wp-content/uploads/2024/07/61g8if2HyfL._AC_SY695_.jpg 1359w, https://redikicks.com/wp-content/uploads/2024/07/61g8if2HyfL._AC_SY695_-300x153.jpg 300w, https://redikicks.com/wp-content/uploads/2024/07/61g8if2HyfL._AC_SY695_-1024x524.jpg 1024w, https://redikicks.com/wp-content/uploads/2024/07/61g8if2HyfL._AC_SY695_-768x393.jpg 768w, https://redikicks.com/wp-content/uploads/2024/07/61g8if2HyfL._AC_SY695_-390x200.jpg 390w" sizes="(max-width: 1359px) 100vw, 1359px" /></span></figure></div>
+<div class="wp-block-stackable-image stk-block-image stk-block stk-9fd7d62 is-style-default" data-block-id="9fd7d62"><style>.stk-9fd7d62 .stk-img-wrapper{height:350px !important}:where(.stk-hover-parent:hover,.stk-hover-parent.stk--is-hovered) .stk-9fd7d62 .stk-img-wrapper::after{background-color:#000000B3 !important}</style><figure><span class="stk-img-wrapper stk-image--shape-stretch"><img loading="lazy" decoding="async" class="stk-img wp-image-98" src="/redikicks-astro/images/61g8if2HyfL._AC_SY695_.jpg" width="1359" height="695" srcset="/redikicks-astro/images/61g8if2HyfL._AC_SY695_.jpg 1359w, /redikicks-astro/images/61g8if2HyfL._AC_SY695_-300x153.jpg 300w, /redikicks-astro/images/61g8if2HyfL._AC_SY695_-1024x524.jpg 1024w, /redikicks-astro/images/61g8if2HyfL._AC_SY695_-768x393.jpg 768w, /redikicks-astro/images/61g8if2HyfL._AC_SY695_-390x200.jpg 390w" sizes="(max-width: 1359px) 100vw, 1359px" /></span></figure></div>
 
 
 
