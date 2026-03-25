@@ -1,11 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
+// Helper to decode HTML entities
+function decodeHtmlEntities(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#8217;/g, "'")
+    .replace(/&#8220;/g, '"')
+    .replace(/&#8221;/g, '"')
+    .replace(/&#8211;/g, '-')
+    .replace(/&#8212;/g, '--')
+    .replace(/&amp;amp;/g, '&');
+}
+
 // Get all posts
 const postFiles = Object.values(import.meta.glob('../content/posts/*.md', { eager: true }));
 const posts = postFiles.map((post: any) => ({
   ...post,
-  frontmatter: post.frontmatter
+  frontmatter: {
+    ...post.frontmatter,
+    title: decodeHtmlEntities(post.frontmatter.title),
+    excerpt: decodeHtmlEntities(post.frontmatter.excerpt),
+    categories: (post.frontmatter.categories || []).map((c: string) => decodeHtmlEntities(c))
+  }
 }));
 
 // Sort by date (newest first)
@@ -16,6 +37,9 @@ const featuredPosts = posts.slice(0, 3);
 
 // Get recent posts (next 6)
 const recentPosts = posts.slice(3, 9);
+
+// Get all posts for grid
+const allPosts = posts.slice(9);
 
 // Get all unique categories
 const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categories || []))];
@@ -73,25 +97,21 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
           <article class="article-card card-hover group">
             <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
               <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
-                {post.frontmatter.featured_image ? (
-                  <img 
-                    src={post.frontmatter.featured_image} 
-                    alt={post.frontmatter.title.replace(/&amp;/g, '&').replace(/&#8217;/g, "'")}
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                  />
-                ) : null}
-                <div class="absolute inset-0 flex items-center justify-center" style={post.frontmatter.featured_image ? "display: none;" : ""}>
-                  <span class="text-5xl">📰</span>
-                </div>
+                <img 
+                  src={post.frontmatter.featured_image || '/redikicks-astro/images/placeholder.jpg'}
+                  alt={post.frontmatter.title}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onerror="this.onerror=null; this.src='/redikicks-astro/images/placeholder.jpg';"
+                />
               </div>
               <div class="p-6">
-                <div class="flex gap-2 mb-3">
+                <div class="flex gap-2 mb-3 flex-wrap">
                   {post.frontmatter.categories?.slice(0, 2).map(cat => (
-                    <span class="category-badge">{cat}</span>
+                    <span class="category-badge text-xs">{cat}</span>
                   ))}
                 </div>
-                <h3 class="text-xl font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;" set:html={post.frontmatter.title.replace(/&amp;/g, '&').replace(/&#8217;/g, "'").replace(/&amp;amp;/g, '&')}>
+                <h3 class="text-xl font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                  {post.frontmatter.title}
                 </h3>
                 <p class="text-gray-400 text-sm line-clamp-3 mb-4">
                   {post.frontmatter.excerpt}
@@ -116,23 +136,18 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
         {recentPosts.map(post => (
           <article class="article-card card-hover group">
             <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
-              <div class="aspect-video bg-secondary/50 overflow-hidden">
-                {post.frontmatter.featured_image ? (
-                  <img 
-                    src={post.frontmatter.featured_image} 
-                    alt={post.frontmatter.title}
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                ) : (
-                  <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-primary">
-                    <span class="text-4xl">📰</span>
-                  </div>
-                )}
+              <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
+                <img 
+                  src={post.frontmatter.featured_image || '/redikicks-astro/images/placeholder.jpg'}
+                  alt={post.frontmatter.title}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onerror="this.onerror=null; this.src='/redikicks-astro/images/placeholder.jpg';"
+                />
               </div>
               <div class="p-6">
-                <div class="flex gap-2 mb-3">
+                <div class="flex gap-2 mb-3 flex-wrap">
                   {post.frontmatter.categories?.slice(0, 2).map(cat => (
-                    <span class="category-badge">{cat}</span>
+                    <span class="category-badge text-xs">{cat}</span>
                   ))}
                 </div>
                 <h3 class="text-lg font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
@@ -157,24 +172,19 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
       </h2>
       
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {posts.slice(9).map(post => (
+        {allPosts.map(post => (
           <article class="article-card card-hover group">
             <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
-              <div class="aspect-video bg-secondary/50 overflow-hidden">
-                {post.frontmatter.featured_image ? (
-                  <img 
-                    src={post.frontmatter.featured_image} 
-                    alt={post.frontmatter.title}
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                ) : (
-                  <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-primary">
-                    <span class="text-3xl">📄</span>
-                  </div>
-                )}
+              <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
+                <img 
+                  src={post.frontmatter.featured_image || '/redikicks-astro/images/placeholder.jpg'}
+                  alt={post.frontmatter.title}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onerror="this.onerror=null; this.src='/redikicks-astro/images/placeholder.jpg';"
+                />
               </div>
               <div class="p-4">
-                <div class="flex gap-1 mb-2">
+                <div class="flex gap-1 mb-2 flex-wrap">
                   {post.frontmatter.categories?.slice(0, 1).map(cat => (
                     <span class="text-xs category-badge">{cat}</span>
                   ))}
