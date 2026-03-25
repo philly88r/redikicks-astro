@@ -4,7 +4,7 @@ slug: "mastering-the-art-of-tie-knots-a-comprehensive-guide"
 date: "2025-03-04T09:56:23"
 categories: ["Men's Fashion"]
 excerpt: "Table of Contents Why Learn How to Tie a Tie Properly: An Read more "
-featured_image: "/redikicks-astro/images/featured_image_5990.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_5990.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

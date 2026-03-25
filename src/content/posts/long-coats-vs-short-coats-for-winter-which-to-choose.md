@@ -4,7 +4,7 @@ slug: "long-coats-vs-short-coats-for-winter-which-to-choose"
 date: "2024-10-01T17:15:01"
 categories: ["Men's Fashion"]
 excerpt: "Discover the pros and cons of long coats vs. short coats for winter. Find the perfect balance of warmth, style, and functionality for your cold-weather wardrobe. "
-featured_image: null
+featured_image: "https://redikicks.com/wp-content/uploads/2024/10/Long-Coats-vs-Short-Coats-for-Winter.jpg"
 ---
 
 <p>Did you know taller men need longer coats? This is because they need more fabric to cover their bodies. The coat&#8217;s length compared to the body&#8217;s height is key for a balanced look. As winter comes, deciding between long and short coats is a big choice. This article will help you find the right mix of <a href="https://www.hockerty.com/en-us/blog/mens-fashion-coat-guide-quilted-unlined?srsltid=AfmBOopojdq3FnUS6LuLRuz9_IAsrgRHJ3IR33DXPaYUMPEsGbD6nzgq" target="_blank" rel="nofollow noopener">warmth, style, and function</a> for your winter clothes.</p>

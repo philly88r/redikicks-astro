@@ -4,7 +4,7 @@ slug: "financial-planning-for-men-in-their-30s-a-comprehensive-guide"
 date: "2025-03-04T11:09:20"
 categories: ["Personal Finance"]
 excerpt: "Table of Contents Financial Planning Guide for Men in Their 30s Why Read more "
-featured_image: "/redikicks-astro/images/featured_image_6133.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6133.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

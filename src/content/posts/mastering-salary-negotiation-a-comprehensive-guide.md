@@ -4,7 +4,7 @@ slug: "mastering-salary-negotiation-a-comprehensive-guide"
 date: "2025-03-04T12:21:58"
 categories: ["Career Advice"]
 excerpt: "Table of Contents Why Understanding How to Negotiate Salary Effectively Matters The Read more "
-featured_image: "/redikicks-astro/images/featured_image_6218.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6218.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

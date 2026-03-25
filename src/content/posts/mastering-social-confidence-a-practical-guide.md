@@ -4,7 +4,7 @@ slug: "mastering-social-confidence-a-practical-guide"
 date: "2025-03-04T10:57:48"
 categories: ["Personal Development"]
 excerpt: "Table of Contents Why Building Confidence in Social Situations Matters Social Confidence: Read more "
-featured_image: "/redikicks-astro/images/featured_image_6109.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6109.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

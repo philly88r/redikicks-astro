@@ -4,7 +4,7 @@ slug: "how-to-fold-a-suit-for-travel-a-comprehensive-guide"
 date: "2025-03-04T11:05:49"
 categories: ["Travel Tips"]
 excerpt: "Table of Contents Mastering the Art of Folding a Suit for Travel Read more "
-featured_image: "/redikicks-astro/images/featured_image_6121.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6121.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

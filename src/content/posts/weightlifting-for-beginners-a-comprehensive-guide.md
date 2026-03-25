@@ -4,7 +4,7 @@ slug: "weightlifting-for-beginners-a-comprehensive-guide"
 date: "2025-03-04T10:46:27"
 categories: ["Fitness"]
 excerpt: "Table of Contents How to Start Weightlifting: A Beginner’s Outline Weightlifting Benefits: Read more "
-featured_image: "/redikicks-astro/images/featured_image_6085.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6085.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

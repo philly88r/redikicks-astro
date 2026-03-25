@@ -4,7 +4,7 @@ slug: "how-to-change-a-flat-tire-a-step-by-step-guide"
 date: "2025-03-04T10:17:42"
 categories: ["Automotive"]
 excerpt: "Table of Contents Understanding How to Change a Flat Tire Outline Flat Read more "
-featured_image: "/redikicks-astro/images/featured_image_6039.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6039.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

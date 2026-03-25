@@ -4,7 +4,7 @@ slug: "diy-car-maintenance-a-beginners-guide-to-saving-money-and-staying-safe"
 date: "2025-03-04T10:13:35"
 categories: ["Automotive"]
 excerpt: "Table of Contents Why a Basic Car Maintenance DIY Outline Matters Cost Read more "
-featured_image: "/redikicks-astro/images/featured_image_6026.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6026.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

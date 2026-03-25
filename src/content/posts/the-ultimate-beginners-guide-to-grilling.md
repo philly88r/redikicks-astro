@@ -4,7 +4,7 @@ slug: "the-ultimate-beginners-guide-to-grilling"
 date: "2025-03-04T10:24:38"
 categories: ["Outdoor Cooking"]
 excerpt: "Table of Contents Your Beginner’s Guide to Grilling Outline The Allure of Read more "
-featured_image: "/redikicks-astro/images/featured_image_6050.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6050.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

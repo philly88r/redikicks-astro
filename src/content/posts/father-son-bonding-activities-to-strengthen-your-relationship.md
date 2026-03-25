@@ -4,7 +4,7 @@ slug: "father-son-bonding-activities-to-strengthen-your-relationship"
 date: "2025-03-04T12:13:39"
 categories: ["Family & Relationships"]
 excerpt: "Table of Contents Why a Father-Son Bonding Activities Outline Matters The Profound Read more "
-featured_image: "/redikicks-astro/images/featured_image_6206.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6206.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

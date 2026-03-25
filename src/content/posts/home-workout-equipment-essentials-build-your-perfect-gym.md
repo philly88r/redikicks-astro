@@ -4,7 +4,7 @@ slug: "home-workout-equipment-essentials-build-your-perfect-gym"
 date: "2025-03-04T12:09:40"
 categories: ["Fitness"]
 excerpt: "Table of Contents Your Guide: Home Workout Equipment Essentials Outline Why You Read more "
-featured_image: "/redikicks-astro/images/featured_image_6194.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6194.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

@@ -4,7 +4,7 @@ slug: "choosing-the-perfect-beard-style-for-your-face-shape"
 date: "2025-03-04T10:00:28"
 categories: ["Men's Grooming Tips and Products"]
 excerpt: "Table of Contents Understanding the Perfect Beard Style Guide for Face Shape Read more "
-featured_image: "/redikicks-astro/images/featured_image_6002.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6002.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

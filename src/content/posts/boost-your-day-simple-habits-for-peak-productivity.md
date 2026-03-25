@@ -4,7 +4,7 @@ slug: "boost-your-day-simple-habits-for-peak-productivity"
 date: "2025-03-04T12:28:26"
 categories: ["Productivity"]
 excerpt: "Table of Contents Unlocking Potential: Simple Daily Productivity Habits Outline Why Daily Read more "
-featured_image: "/redikicks-astro/images/featured_image_6230.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_6230.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

@@ -4,7 +4,7 @@ slug: "quick-morning-bodyweight-workouts-for-busy-people"
 date: "2025-03-04T09:48:27"
 categories: ["Fitness"]
 excerpt: "Table of Contents Your Quick Morning Bodyweight Workout Outline Why a Quick Read more "
-featured_image: "/redikicks-astro/images/featured_image_5978.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_5978.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>

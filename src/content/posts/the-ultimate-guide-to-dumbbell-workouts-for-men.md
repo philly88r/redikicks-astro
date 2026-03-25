@@ -4,7 +4,7 @@ slug: "the-ultimate-guide-to-dumbbell-workouts-for-men"
 date: "2025-03-04T09:45:17"
 categories: ["Fitness"]
 excerpt: "Table of Contents The Ultimate Guide: Best Dumbbell Workouts for Men Unlocking Read more "
-featured_image: "/redikicks-astro/images/featured_image_5965.png"
+featured_image: "https://redikicks.com/wp-content/uploads/2025/03/featured_image_5965.png"
 ---
 
 <h2 class="wp-block-heading">Table of Contents</h2>
