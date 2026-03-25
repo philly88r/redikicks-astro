@@ -1,0 +1,193 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Get all posts
+const postFiles = Object.values(import.meta.glob('../content/posts/*.md', { eager: true }));
+const posts = postFiles.map((post: any) => ({
+  ...post,
+  frontmatter: post.frontmatter
+}));
+
+// Sort by date (newest first)
+posts.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
+
+// Get featured posts (first 3)
+const featuredPosts = posts.slice(0, 3);
+
+// Get recent posts (next 6)
+const recentPosts = posts.slice(3, 9);
+
+// Get all unique categories
+const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categories || []))];
+---
+
+<Layout title="Redikicks - Men's Lifestyle, Fashion & Trends">
+  <!-- Hero Section -->
+  <section class="gradient-hero py-20 lg:py-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight" style="font-family: 'Playfair Display', serif;">
+          Elevate Your <span class="gradient-text">Lifestyle</span>
+        </h1>
+        <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+          Your ultimate guide to men's fashion, fitness, dating, career, and outdoor adventures. 
+          Discover tips, trends, and strategies to level up every aspect of your life.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#latest" class="btn-primary">
+            Explore Articles
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="py-12 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap gap-3 justify-center">
+        {allCategories.slice(0, 10).map(category => (
+          <a 
+            href={`/redikicks-astro/category/${category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+            class="px-4 py-2 rounded-full bg-secondary/50 border border-white/10 text-gray-300 hover:bg-accent hover:text-white transition-all duration-300"
+          >
+            {category}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Posts -->
+  <section class="py-16" id="latest">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center" style="font-family: 'Playfair Display', serif;">
+        Featured Articles
+      </h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        {featuredPosts.map(post => (
+          <article class="article-card card-hover group">
+            <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
+              <div class="aspect-video bg-secondary/50 overflow-hidden">
+                {post.frontmatter.featured_image ? (
+                  <img 
+                    src={post.frontmatter.featured_image} 
+                    alt={post.frontmatter.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-primary">
+                    <span class="text-4xl">🎯</span>
+                  </div>
+                )}
+              </div>
+              <div class="p-6">
+                <div class="flex gap-2 mb-3">
+                  {post.frontmatter.categories?.slice(0, 2).map(cat => (
+                    <span class="category-badge">{cat}</span>
+                  ))}
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                  {post.frontmatter.title}
+                </h3>
+                <p class="text-gray-400 text-sm line-clamp-3 mb-4">
+                  {post.frontmatter.excerpt}
+                </p>
+                <span class="text-accent text-sm font-semibold">Read More →</span>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Posts -->
+  <section class="py-16 bg-secondary/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center" style="font-family: 'Playfair Display', serif;">
+        Latest Articles
+      </h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {recentPosts.map(post => (
+          <article class="article-card card-hover group">
+            <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
+              <div class="aspect-video bg-secondary/50 overflow-hidden">
+                {post.frontmatter.featured_image ? (
+                  <img 
+                    src={post.frontmatter.featured_image} 
+                    alt={post.frontmatter.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-primary">
+                    <span class="text-4xl">📰</span>
+                  </div>
+                )}
+              </div>
+              <div class="p-6">
+                <div class="flex gap-2 mb-3">
+                  {post.frontmatter.categories?.slice(0, 2).map(cat => (
+                    <span class="category-badge">{cat}</span>
+                  ))}
+                </div>
+                <h3 class="text-lg font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                  {post.frontmatter.title}
+                </h3>
+                <p class="text-gray-400 text-sm line-clamp-2">
+                  {post.frontmatter.excerpt}
+                </p>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- All Posts Grid -->
+  <section class="py-16" id="all-posts">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center" style="font-family: 'Playfair Display', serif;">
+        All Articles ({posts.length})
+      </h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {posts.slice(9).map(post => (
+          <article class="article-card card-hover group">
+            <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
+              <div class="aspect-video bg-secondary/50 overflow-hidden">
+                {post.frontmatter.featured_image ? (
+                  <img 
+                    src={post.frontmatter.featured_image} 
+                    alt={post.frontmatter.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-primary">
+                    <span class="text-3xl">📄</span>
+                  </div>
+                )}
+              </div>
+              <div class="p-4">
+                <div class="flex gap-1 mb-2">
+                  {post.frontmatter.categories?.slice(0, 1).map(cat => (
+                    <span class="text-xs category-badge">{cat}</span>
+                  ))}
+                </div>
+                <h3 class="text-base font-bold mb-2 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                  {post.frontmatter.title}
+                </h3>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
