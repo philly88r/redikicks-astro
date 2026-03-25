@@ -1,0 +1,160 @@
+---
+// SEO Component for Redikicks
+// Comprehensive SEO meta tags, Open Graph, Twitter Cards, and Schema markup
+
+export interface SEOProps {
+  title: string;
+  description: string;
+  image?: string;
+  type?: 'website' | 'article';
+  publishDate?: string;
+  modifiedDate?: string;
+  author?: string;
+  category?: string;
+  tags?: string[];
+  slug?: string;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  image,
+  type = 'website',
+  publishDate,
+  modifiedDate,
+  author = 'Redikicks',
+  category,
+  tags = [],
+  slug = '',
+  noindex = false
+} = Astro.props;
+
+const siteUrl = 'https://philly88r.github.io';
+const basePath = '/redikicks-astro';
+const canonicalUrl = `${siteUrl}${basePath}${slug ? `/${slug}` : ''}`;
+const defaultImage = '/redikicks-astro/images/og-default.jpg';
+const safeImage = image || defaultImage;
+const ogImage = safeImage.startsWith('http') ? safeImage : `${siteUrl}${basePath}${safeImage}`;
+
+// JSON-LD Schema based on type
+const getSchema = () => {
+  if (type === 'article') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description: description,
+      image: safeImage,
+      url: canonicalUrl,
+      datePublished: publishDate,
+      dateModified: modifiedDate || publishDate,
+      author: {
+        '@type': 'Organization',
+        name: author,
+        url: `${siteUrl}${basePath}`
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Redikicks',
+        logo: {
+          '@type': 'ImageObject',
+          url: `${siteUrl}${basePath}/images/logo.png`
+        }
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': canonicalUrl
+      },
+      articleSection: category,
+      keywords: tags.join(', ')
+    };
+  }
+  
+  // Website schema for homepage
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Redikicks',
+    description: 'Your Ultimate Guide to Men\'s Style and Trends',
+    url: `${siteUrl}${basePath}`,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${siteUrl}${basePath}/search?q={search_term_string}`,
+      'query-input': 'required name=search_term_string'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Redikicks',
+      url: `${siteUrl}${basePath}`,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}${basePath}/images/logo.png`,
+        width: 512,
+        height: 512
+      }
+    }
+  };
+};
+
+const schema = getSchema();
+---
+
+<!-- Primary Meta Tags -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<meta name="author" content={author} />
+<meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="Redikicks" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={canonicalUrl} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={ogImage} />
+<meta name="twitter:site" content="@redikicks" />
+<meta name="twitter:creator" content="@redikicks" />
+
+<!-- Article Specific (if type is article) -->
+{type === 'article' && (
+  <>
+    <meta property="article:published_time" content={publishDate} />
+    <meta property="article:modified_time" content={modifiedDate || publishDate} />
+    <meta property="article:author" content={author} />
+    <meta property="article:section" content={category} />
+    {tags.map(tag => <meta property="article:tag" content={tag} />)}
+  </>
+)}
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href={`${basePath}/favicon.ico`} />
+<link rel="apple-touch-icon" sizes="180x180" href={`${basePath}/apple-touch-icon.png`} />
+<link rel="icon" type="image/png" sizes="32x32" href={`${basePath}/favicon-32x32.png`} />
+<link rel="icon" type="image/png" sizes="16x16" href={`${basePath}/favicon-16x16.png`} />
+<link rel="manifest" href={`${basePath}/site.webmanifest`} />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<!-- Preconnect to external domains -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://redikicks.com" />
+
+<!-- Theme Color -->
+<meta name="theme-color" content="#1a1a2e" />
+<meta name="msapplication-TileColor" content="#1a1a2e" />

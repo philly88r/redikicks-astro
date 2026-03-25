@@ -1,5 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import RelatedArticles from '../../components/RelatedArticles.astro';
+
+// Helper to decode HTML entities
+function decodeHtmlEntities(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#8217;/g, "'")
+    .replace(/&#8220;/g, '"')
+    .replace(/&#8221;/g, '"')
+    .replace(/&#8211;/g, '-')
+    .replace(/&#8212;/g, '--')
+    .replace(/&amp;amp;/g, '&');
+}
 
 // Generate all static paths
 export async function getStaticPaths() {
@@ -13,7 +31,12 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = post;
-const { title, date, categories, featured_image } = post.frontmatter;
+const { title, date, categories, featured_image, slug, excerpt } = post.frontmatter;
+
+// Decode entities
+const decodedTitle = decodeHtmlEntities(title);
+const decodedExcerpt = decodeHtmlEntities(excerpt || '');
+const decodedCategories = (categories || []).map((c: string) => decodeHtmlEntities(c));
 
 // Format date
 const formattedDate = new Date(date).toLocaleDateString('en-US', {
@@ -21,16 +44,47 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   month: 'long',
   day: 'numeric'
 });
+
+// Get all posts for related articles
+const allPosts = Object.values(import.meta.glob('../../content/posts/*.md', { eager: true })).map((p: any) => ({
+  frontmatter: {
+    ...p.frontmatter,
+    title: decodeHtmlEntities(p.frontmatter.title),
+    categories: (p.frontmatter.categories || []).map((c: string) => decodeHtmlEntities(c))
+  }
+}));
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { name: 'Home', url: '/redikicks-astro/' },
+  { name: 'All Posts', url: '/redikicks-astro/all-posts' },
+  { name: decodedTitle, url: `/redikicks-astro/post/${slug}` }
+];
+
+// Estimate reading time (average 200 words per minute)
+const wordCount = 500; // Default estimate
+const readingTime = Math.ceil(wordCount / 200);
 ---
 
-<Layout title={`${title} | Redikicks`}>
+<Layout 
+  title={`${decodedTitle} | Redikicks`}
+  description={decodedExcerpt}
+  image={featured_image}
+  type="article"
+  publishDate={date}
+  modifiedDate={date}
+  author="Redikicks"
+  category={decodedCategories[0]}
+  tags={decodedCategories}
+  slug={`/post/${slug}`}
+>
   <article class="min-h-screen">
     {/* Hero Image */}
     <div class="relative h-[50vh] min-h-[400px]">
       {featured_image ? (
         <img 
           src={featured_image} 
-          alt={title}
+          alt={decodedTitle}
           class="w-full h-full object-cover"
         />
       ) : (
@@ -43,32 +97,73 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
       {/* Title Overlay */}
       <div class="absolute bottom-0 left-0 right-0 p-8">
         <div class="max-w-4xl mx-auto">
-          <div class="flex gap-2 mb-4 flex-wrap">
-            {categories?.map(cat => (
-              <span class="category-badge">{cat}</span>
+          {/* Breadcrumbs */}
+          <Breadcrumbs items={breadcrumbItems} />
+          
+          <div class="flex gap-2 mb-4 flex-wrap mt-4">
+            {decodedCategories?.map(cat => (
+              <a 
+                href={`/redikicks-astro/category/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+                class="category-badge hover:bg-accent hover:text-white transition-colors"
+              >
+                {cat}
+              </a>
             ))}
           </div>
           <h1 class="text-3xl md:text-5xl font-bold text-white mb-4" style="font-family: 'Playfair Display', serif;">
-            {title}
+            {decodedTitle}
           </h1>
-          <p class="text-gray-400">Published on {formattedDate}</p>
+          <div class="flex items-center gap-4 text-gray-400 text-sm">
+            <span>Published: {formattedDate}</span>
+            <span>•</span>
+            <span>{readingTime} min read</span>
+          </div>
         </div>
       </div>
     </div>
 
     {/* Content */}
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      {/* Article Content */}
       <div class="prose prose-invert prose-lg max-w-none">
         <Content />
       </div>
       
+      {/* Tags */}
+      {decodedCategories.length > 0 && (
+        <div class="mt-12 pt-8 border-t border-white/10">
+          <h4 class="text-sm font-semibold text-gray-400 mb-3">Tags:</h4>
+          <div class="flex flex-wrap gap-2">
+            {decodedCategories.map(cat => (
+              <a 
+                href={`/redikicks-astro/category/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+                class="px-3 py-1 bg-secondary/50 text-gray-300 rounded-full text-sm hover:bg-accent hover:text-white transition-colors"
+              >
+                {cat}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+      
+      {/* Related Articles - Internal Linking */}
+      <RelatedArticles 
+        currentSlug={slug}
+        currentCategories={decodedCategories}
+        posts={allPosts}
+        maxPosts={4}
+      />
+      
       {/* Back to Home */}
-      <div class="mt-12 pt-8 border-t border-white/10">
+      <div class="mt-12 pt-8 border-t border-white/10 flex justify-between items-center">
         <a href="/redikicks-astro/" class="btn-secondary">
           <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
           </svg>
-          Back to All Articles
+          Back to Home
+        </a>
+        <a href="/redikicks-astro/all-posts" class="text-accent hover:text-white transition-colors">
+          Browse All Articles →
         </a>
       </div>
     </div>

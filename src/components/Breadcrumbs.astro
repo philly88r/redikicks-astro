@@ -1,0 +1,51 @@
+---
+// Breadcrumbs Component with Schema Markup
+
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const baseUrl = 'https://philly88r.github.io/redikicks-astro';
+
+// Build schema
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.name,
+    item: item.url.startsWith('http') ? item.url : `${baseUrl}${item.url}`
+  }))
+};
+---
+
+<nav aria-label="Breadcrumb" class="py-4 text-sm">
+  <ol class="flex flex-wrap items-center gap-2 text-gray-400">
+    {items.map((item, index) => (
+      <li class="flex items-center">
+        {index > 0 && (
+          <svg class="w-4 h-4 mx-2 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        )}
+        {index === items.length - 1 ? (
+          <span class="text-accent font-medium" aria-current="page">{item.name}</span>
+        ) : (
+          <a href={item.url} class="hover:text-white transition-colors">
+            {item.name}
+          </a>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

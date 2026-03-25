@@ -1,0 +1,91 @@
+---
+// Related Articles Component - Internal Linking for SEO
+
+interface Post {
+  frontmatter: {
+    title: string;
+    slug: string;
+    categories: string[];
+    excerpt?: string;
+    featured_image?: string;
+  };
+}
+
+interface Props {
+  currentSlug: string;
+  currentCategories: string[];
+  posts: Post[];
+  maxPosts?: number;
+}
+
+const { currentSlug, currentCategories, posts, maxPosts = 4 } = Astro.props;
+
+// Find related posts based on category matching
+const relatedPosts = posts
+  .filter(post => post.frontmatter.slug !== currentSlug)
+  .map(post => {
+    const sharedCategories = post.frontmatter.categories?.filter(cat => 
+      currentCategories.some(currentCat => 
+        cat.toLowerCase() === currentCat.toLowerCase() ||
+        cat.toLowerCase().includes(currentCat.toLowerCase()) ||
+        currentCat.toLowerCase().includes(cat.toLowerCase())
+      )
+    ) || [];
+    
+    return {
+      ...post,
+      relevanceScore: sharedCategories.length
+    };
+  })
+  .filter(post => post.relevanceScore > 0)
+  .sort((a, b) => b.relevanceScore - a.relevanceScore)
+  .slice(0, maxPosts);
+
+// If not enough related posts, add random posts
+const randomPosts = posts
+  .filter(post => 
+    post.frontmatter.slug !== currentSlug &&
+    !relatedPosts.some(rp => rp.frontmatter.slug === post.frontmatter.slug)
+  )
+  .sort(() => Math.random() - 0.5)
+  .slice(0, maxPosts - relatedPosts.length);
+
+const finalRelatedPosts = [...relatedPosts, ...randomPosts].slice(0, maxPosts);
+---
+
+{finalRelatedPosts.length > 0 && (
+  <aside class="mt-16 pt-12 border-t border-white/10">
+    <h3 class="text-2xl font-bold mb-6" style="font-family: 'Playfair Display', serif;">
+      Related Articles
+    </h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      {finalRelatedPosts.map(post => (
+        <article class="flex gap-4 group">
+          <a href={`/redikicks-astro/post/${post.frontmatter.slug}`} class="flex gap-4 w-full">
+            <div class="w-24 h-24 flex-shrink-0 bg-gradient-to-br from-secondary to-primary rounded-lg overflow-hidden">
+              <img 
+                src={post.frontmatter.featured_image || '/redikicks-astro/images/placeholder.jpg'}
+                alt={post.frontmatter.title}
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                loading="lazy"
+              />
+            </div>
+            <div class="flex-1">
+              <div class="flex gap-1 mb-1 flex-wrap">
+                {post.frontmatter.categories?.slice(0, 1).map(cat => (
+                  <span class="text-xs text-accent">{cat}</span>
+                ))}
+              </div>
+              <h4 class="font-bold text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                {post.frontmatter.title}
+              </h4>
+              <p class="text-gray-500 text-sm mt-1 line-clamp-2">
+                {post.frontmatter.excerpt?.substring(0, 80)}...
+              </p>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </aside>
+)}

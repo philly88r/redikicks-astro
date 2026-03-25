@@ -1,0 +1,39 @@
+---
+// Table of Contents Component - SEO Enhancement for Long Articles
+
+interface Props {
+  content: string;
+}
+
+const { content } = Astro.props;
+
+// Extract headings from content
+const headings = content.match(/<h[2-3][^>]*>(.*?)<\/h[2-3]>/g) || [];
+
+const tocItems = headings.map(heading => {
+  const level = heading.match(/<h([2-3])/)?.[1] || '2';
+  const text = heading.replace(/<[^>]*>/g, '');
+  const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return { level, text, id };
+});
+---
+
+{tocItems.length > 3 && (
+  <nav class="bg-secondary/30 rounded-xl p-6 mb-8 border border-white/10">
+    <h3 class="text-lg font-bold mb-4 text-white" style="font-family: 'Playfair Display', serif;">
+      Table of Contents
+    </h3>
+    <ul class="space-y-2">
+      {tocItems.map(item => (
+        <li class={item.level === '3' ? 'ml-4' : ''}>
+          <a 
+            href={`#${item.id}`} 
+            class="text-gray-400 hover:text-accent transition-colors text-sm"
+          >
+            {item.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
