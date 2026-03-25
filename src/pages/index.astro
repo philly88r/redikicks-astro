@@ -72,18 +72,18 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
         {featuredPosts.map(post => (
           <article class="article-card card-hover group">
             <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
-              <div class="aspect-video bg-secondary/50 overflow-hidden">
+              <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
                 {post.frontmatter.featured_image ? (
                   <img 
                     src={post.frontmatter.featured_image} 
-                    alt={post.frontmatter.title}
+                    alt={post.frontmatter.title.replace(/&amp;/g, '&').replace(/&#8217;/g, "'")}
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                   />
-                ) : (
-                  <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-secondary to-primary">
-                    <span class="text-4xl">🎯</span>
-                  </div>
-                )}
+                ) : null}
+                <div class="absolute inset-0 flex items-center justify-center" style={post.frontmatter.featured_image ? "display: none;" : ""}>
+                  <span class="text-5xl">📰</span>
+                </div>
               </div>
               <div class="p-6">
                 <div class="flex gap-2 mb-3">
@@ -91,8 +91,7 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
                     <span class="category-badge">{cat}</span>
                   ))}
                 </div>
-                <h3 class="text-xl font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
-                  {post.frontmatter.title}
+                <h3 class="text-xl font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;" set:html={post.frontmatter.title.replace(/&amp;/g, '&').replace(/&#8217;/g, "'").replace(/&amp;amp;/g, '&')}>
                 </h3>
                 <p class="text-gray-400 text-sm line-clamp-3 mb-4">
                   {post.frontmatter.excerpt}
