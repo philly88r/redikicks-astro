@@ -29,70 +29,199 @@ const posts = postFiles.map((post: any) => ({
   }
 }));
 
-// Sort by date (newest first)
+// Sort by date
 posts.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
 
-// Get featured posts (first 3)
-const featuredPosts = posts.slice(0, 3);
+// Get featured posts (6 latest)
+const featuredPosts = posts.slice(0, 6);
 
-// Get recent posts (next 6)
-const recentPosts = posts.slice(3, 9);
+// Get trending posts (next 6 - by views/popularity in real scenario)
+const trendingPosts = posts.slice(6, 12);
 
-// Get all posts for grid
-const allPosts = posts.slice(9);
+// Get latest posts (next 8)
+const latestPosts = posts.slice(12, 20);
 
-// Get all unique categories
-const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categories || []))];
+// Define main categories with their descriptions and icons
+const mainCategories = [
+  { 
+    name: "Men's Fashion & Style", 
+    slug: "mens-fashion",
+    icon: "👔",
+    description: "Clothing, grooming, accessories, and style tips",
+    color: "from-blue-600 to-blue-800"
+  },
+  { 
+    name: "Fitness & Health", 
+    slug: "fitness",
+    icon: "💪",
+    description: "Workouts, nutrition, mental health, and wellness",
+    color: "from-green-600 to-green-800"
+  },
+  { 
+    name: "Dating & Relationships", 
+    slug: "dating-relationships",
+    icon: "❤️",
+    description: "Dating advice, relationships, and social skills",
+    color: "from-red-600 to-red-800"
+  },
+  { 
+    name: "Career & Finance", 
+    slug: "career-advice",
+    icon: "💼",
+    description: "Career growth, finance, and professional development",
+    color: "from-purple-600 to-purple-800"
+  },
+  { 
+    name: "Outdoor & Adventure", 
+    slug: "outdoor-adventures",
+    icon: "🏔️",
+    description: "Travel, outdoor activities, survival skills, and adventure",
+    color: "from-orange-600 to-orange-800"
+  }
+];
+
+// Count posts per category
+const categoryCounts = {};
+posts.forEach(post => {
+  post.frontmatter.categories?.forEach(cat => {
+    categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+  });
+});
+
+// Total posts count
+const totalPosts = posts.length;
 ---
 
 <Layout title="Redikicks - Men's Lifestyle, Fashion & Trends">
   <!-- Hero Section -->
-  <section class="gradient-hero py-20 lg:py-32">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl">
-        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight" style="font-family: 'Playfair Display', serif;">
-          Elevate Your <span class="gradient-text">Lifestyle</span>
-        </h1>
-        <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-          Your ultimate guide to men's fashion, fitness, dating, career, and outdoor adventures. 
-          Discover tips, trends, and strategies to level up every aspect of your life.
-        </p>
-        <div class="flex flex-wrap gap-4">
-          <a href="#latest" class="btn-primary">
-            Explore Articles
-            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
-            </svg>
-          </a>
+  <section class="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+    <!-- Background Gradient -->
+    <div class="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-dark"></div>
+    
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 overflow-hidden">
+      <div class="absolute top-20 left-10 w-72 h-72 bg-accent/20 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-3xl"></div>
+    </div>
+    
+    <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight" style="font-family: 'Playfair Display', serif;">
+        <span class="text-white">Level Up Your</span><br />
+        <span class="gradient-text">Life</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+        The ultimate destination for men who want to elevate their style, 
+        fitness, career, relationships, and adventures.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#categories" class="btn-primary text-lg px-8 py-4">
+          Explore Categories
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+          </svg>
+        </a>
+        <a href="#featured" class="btn-secondary text-lg px-8 py-4">
+          Latest Articles
+        </a>
+      </div>
+      
+      <!-- Stats -->
+      <div class="mt-16 flex flex-wrap justify-center gap-8 md:gap-16">
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-accent" style="font-family: 'Playfair Display', serif;">{totalPosts}+</div>
+          <div class="text-gray-400 mt-1">Articles</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-accent" style="font-family: 'Playfair Display', serif;">5</div>
+          <div class="text-gray-400 mt-1">Categories</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-accent" style="font-family: 'Playfair Display', serif;">Daily</div>
+          <div class="text-gray-400 mt-1">Updates</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Categories -->
-  <section class="py-12 border-b border-white/10">
+  <!-- Categories Section -->
+  <section id="categories" class="py-20 bg-secondary/30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-wrap gap-3 justify-center">
-        {allCategories.slice(0, 10).map(category => (
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">
+          Explore by <span class="gradient-text">Category</span>
+        </h2>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+          Dive deep into topics that matter. {totalPosts}+ articles across {mainCategories.length} core areas.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {mainCategories.map(category => (
           <a 
-            href={`/redikicks-astro/category/${category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-            class="px-4 py-2 rounded-full bg-secondary/50 border border-white/10 text-gray-300 hover:bg-accent hover:text-white transition-all duration-300"
+            href={`/redikicks-astro/category/${category.slug}`}
+            class={`group relative overflow-hidden rounded-2xl bg-gradient-to-br ${category.color} p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl`}
           >
-            {category}
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+            <div class="relative z-10">
+              <div class="text-5xl mb-4">{category.icon}</div>
+              <h3 class="text-2xl font-bold text-white mb-2" style="font-family: 'Playfair Display', serif;">
+                {category.name}
+              </h3>
+              <p class="text-white/80 mb-4">{category.description}</p>
+              <div class="flex items-center justify-between">
+                <span class="text-white/60 text-sm">
+                  {categoryCounts[category.name] || 0} articles
+                </span>
+                <span class="text-white group-hover:translate-x-2 transition-transform">
+                  Explore →
+                </span>
+              </div>
+            </div>
           </a>
         ))}
+        
+        <!-- View All Categories Card -->
+        <a 
+          href="/redikicks-astro/all-posts"
+          class="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900 p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl border-2 border-dashed border-gray-600"
+        >
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+          <div class="relative z-10 h-full flex flex-col justify-center items-center text-center">
+            <div class="text-5xl mb-4">📚</div>
+            <h3 class="text-2xl font-bold text-white mb-2" style="font-family: 'Playfair Display', serif;">
+              View All Posts
+            </h3>
+            <p class="text-gray-400 mb-4">Browse all {totalPosts} articles</p>
+            <span class="text-accent group-hover:translate-x-2 transition-transform">
+              See Everything →
+            </span>
+          </div>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- Featured Posts -->
-  <section class="py-16" id="latest">
+  <!-- Featured Posts Section -->
+  <section id="featured" class="py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center" style="font-family: 'Playfair Display', serif;">
-        Featured Articles
-      </h2>
+      <div class="flex justify-between items-end mb-12">
+        <div>
+          <h2 class="text-4xl md:text-5xl font-bold mb-2" style="font-family: 'Playfair Display', serif;">
+            Featured <span class="gradient-text">Articles</span>
+          </h2>
+          <p class="text-gray-400">Our latest and greatest content</p>
+        </div>
+        <a href="/redikicks-astro/all-posts" class="hidden md:flex items-center text-accent hover:text-white transition-colors">
+          View All
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+      </div>
       
-      <div class="grid md:grid-cols-3 gap-8">
+      <!-- Featured Grid - Large Cards -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {featuredPosts.map(post => (
           <article class="article-card card-hover group">
             <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
@@ -103,20 +232,27 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   onerror="this.onerror=null; this.src='/redikicks-astro/images/placeholder.jpg';"
                 />
-              </div>
-              <div class="p-6">
-                <div class="flex gap-2 mb-3 flex-wrap">
-                  {post.frontmatter.categories?.slice(0, 2).map(cat => (
-                    <span class="category-badge text-xs">{cat}</span>
+                <div class="absolute top-4 left-4">
+                  {post.frontmatter.categories?.slice(0, 1).map(cat => (
+                    <span class="bg-accent/90 text-white px-3 py-1 rounded-full text-xs font-semibold uppercase">
+                      {cat}
+                    </span>
                   ))}
                 </div>
+              </div>
+              <div class="p-6">
                 <h3 class="text-xl font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
                   {post.frontmatter.title}
                 </h3>
-                <p class="text-gray-400 text-sm line-clamp-3 mb-4">
+                <p class="text-gray-400 text-sm line-clamp-3">
                   {post.frontmatter.excerpt}
                 </p>
-                <span class="text-accent text-sm font-semibold">Read More →</span>
+                <div class="mt-4 flex items-center text-accent text-sm font-semibold">
+                  Read Article
+                  <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                  </svg>
+                </div>
               </div>
             </a>
           </article>
@@ -125,37 +261,32 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
     </div>
   </section>
 
-  <!-- Recent Posts -->
-  <section class="py-16 bg-secondary/20">
+  <!-- Trending Section -->
+  <section class="py-20 bg-secondary/30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center" style="font-family: 'Playfair Display', serif;">
-        Latest Articles
+      <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center" style="font-family: 'Playfair Display', serif;">
+        Trending <span class="gradient-text">Now</span>
       </h2>
       
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {recentPosts.map(post => (
-          <article class="article-card card-hover group">
-            <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
-              <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {trendingPosts.map((post, index) => (
+          <article class="article-card card-hover group flex">
+            <a href={`/redikicks-astro/post/${post.frontmatter.slug}`} class="flex w-full">
+              <div class="w-24 h-24 flex-shrink-0 bg-gradient-to-br from-secondary to-primary overflow-hidden">
                 <img 
                   src={post.frontmatter.featured_image || '/redikicks-astro/images/placeholder.jpg'}
                   alt={post.frontmatter.title}
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   onerror="this.onerror=null; this.src='/redikicks-astro/images/placeholder.jpg';"
                 />
               </div>
-              <div class="p-6">
-                <div class="flex gap-2 mb-3 flex-wrap">
-                  {post.frontmatter.categories?.slice(0, 2).map(cat => (
-                    <span class="category-badge text-xs">{cat}</span>
-                  ))}
+              <div class="p-4 flex-1">
+                <div class="text-accent text-xs font-semibold mb-1">
+                  {post.frontmatter.categories?.[0]}
                 </div>
-                <h3 class="text-lg font-bold mb-3 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                <h3 class="text-sm font-bold text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
                   {post.frontmatter.title}
                 </h3>
-                <p class="text-gray-400 text-sm line-clamp-2">
-                  {post.frontmatter.excerpt}
-                </p>
               </div>
             </a>
           </article>
@@ -164,15 +295,20 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
     </div>
   </section>
 
-  <!-- All Posts Grid -->
-  <section class="py-16" id="all-posts">
+  <!-- Latest Section -->
+  <section class="py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center" style="font-family: 'Playfair Display', serif;">
-        All Articles ({posts.length})
-      </h2>
+      <div class="flex justify-between items-end mb-12">
+        <div>
+          <h2 class="text-4xl md:text-5xl font-bold mb-2" style="font-family: 'Playfair Display', serif;">
+            Fresh <span class="gradient-text">Content</span>
+          </h2>
+          <p class="text-gray-400">New articles added regularly</p>
+        </div>
+      </div>
       
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {allPosts.map(post => (
+        {latestPosts.map(post => (
           <article class="article-card card-hover group">
             <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
               <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
@@ -184,17 +320,62 @@ const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categor
                 />
               </div>
               <div class="p-4">
-                <div class="flex gap-1 mb-2 flex-wrap">
+                <div class="flex gap-2 mb-2 flex-wrap">
                   {post.frontmatter.categories?.slice(0, 1).map(cat => (
-                    <span class="text-xs category-badge">{cat}</span>
+                    <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded">{cat}</span>
                   ))}
                 </div>
-                <h3 class="text-base font-bold mb-2 text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                <h3 class="text-base font-bold text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
                   {post.frontmatter.title}
                 </h3>
               </div>
             </a>
           </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter CTA -->
+  <section class="py-20 bg-gradient-to-r from-accent/20 to-purple-600/20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6" style="font-family: 'Playfair Display', serif;">
+        Never Miss an Article
+      </h2>
+      <p class="text-xl text-gray-300 mb-8">
+        Join thousands of men leveling up their lives. Get the latest tips delivered to your inbox.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 max-w-xl mx-auto">
+        <input 
+          type="email" 
+          placeholder="Enter your email"
+          class="flex-1 min-w-[250px] px-6 py-4 rounded-full bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-accent"
+        />
+        <button class="btn-primary px-8 py-4">
+          Subscribe
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Links Footer Section -->
+  <section class="py-16 bg-secondary/30 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-5 gap-8">
+        {mainCategories.map(category => (
+          <div>
+            <h4 class="font-bold text-white mb-4 flex items-center gap-2">
+              <span>{category.icon}</span>
+              {category.name}
+            </h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href={`/redikicks-astro/category/${category.slug}`} class="text-gray-400 hover:text-accent transition-colors">
+                  View All ({categoryCounts[category.name] || 0})
+                </a>
+              </li>
+            </ul>
+          </div>
         ))}
       </div>
     </div>

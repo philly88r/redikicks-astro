@@ -7,6 +7,8 @@ interface Props {
 }
 
 const { title, description = "Redikicks - Men's Lifestyle, Fashion & Trends" } = Astro.props;
+
+const baseUrl = '/redikicks-astro';
 ---
 
 <!DOCTYPE html>
@@ -25,16 +27,52 @@ const { title, description = "Redikicks - Men's Lifestyle, Fashion & Trends" } =
   <nav class="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md border-b border-white/10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
-        <a href="/" class="text-2xl font-bold gradient-text" style="font-family: 'Playfair Display', serif;">
+        <a href={`${baseUrl}/`} class="text-2xl font-bold gradient-text" style="font-family: 'Playfair Display', serif;">
           REDIKICKS
         </a>
-        <div class="hidden md:flex space-x-8">
-          <a href="/" class="nav-link">Home</a>
-          <a href="/category/mens-fashion" class="nav-link">Fashion</a>
-          <a href="/category/fitness" class="nav-link">Fitness</a>
-          <a href="/category/dating-relationships" class="nav-link">Dating</a>
-          <a href="/category/career-advice" class="nav-link">Career</a>
-          <a href="/category/outdoor-adventures" class="nav-link">Outdoors</a>
+        <div class="hidden lg:flex space-x-6 items-center">
+          <a href={`${baseUrl}/`} class="nav-link">Home</a>
+          
+          <!-- Categories Dropdown -->
+          <div class="relative group">
+            <button class="nav-link flex items-center gap-1">
+              Categories
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="absolute top-full left-0 mt-2 w-64 bg-secondary border border-white/10 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div class="py-2">
+                <a href={`${baseUrl}/category/mens-fashion`} class="flex items-center gap-3 px-4 py-3 text-gray-300 hover:text-accent hover:bg-white/5 transition">
+                  <span>👔</span>
+                  <span>Men's Fashion & Style</span>
+                </a>
+                <a href={`${baseUrl}/category/fitness`} class="flex items-center gap-3 px-4 py-3 text-gray-300 hover:text-accent hover:bg-white/5 transition">
+                  <span>💪</span>
+                  <span>Fitness & Health</span>
+                </a>
+                <a href={`${baseUrl}/category/dating-relationships`} class="flex items-center gap-3 px-4 py-3 text-gray-300 hover:text-accent hover:bg-white/5 transition">
+                  <span>❤️</span>
+                  <span>Dating & Relationships</span>
+                </a>
+                <a href={`${baseUrl}/category/career-advice`} class="flex items-center gap-3 px-4 py-3 text-gray-300 hover:text-accent hover:bg-white/5 transition">
+                  <span>💼</span>
+                  <span>Career & Finance</span>
+                </a>
+                <a href={`${baseUrl}/category/outdoor-adventures`} class="flex items-center gap-3 px-4 py-3 text-gray-300 hover:text-accent hover:bg-white/5 transition">
+                  <span>🏔️</span>
+                  <span>Outdoor & Adventure</span>
+                </a>
+                <div class="border-t border-white/10 my-2"></div>
+                <a href={`${baseUrl}/all-posts`} class="flex items-center gap-3 px-4 py-3 text-gray-300 hover:text-accent hover:bg-white/5 transition">
+                  <span>📚</span>
+                  <span>View All Posts</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <a href={`${baseUrl}/all-posts`} class="nav-link">All Posts</a>
         </div>
       </div>
     </div>
@@ -56,19 +94,17 @@ const { title, description = "Redikicks - Men's Lifestyle, Fashion & Trends" } =
         <div>
           <h4 class="font-semibold text-white mb-4">Categories</h4>
           <ul class="space-y-2 text-gray-400">
-            <li><a href="/category/mens-fashion" class="hover:text-accent transition">Fashion</a></li>
-            <li><a href="/category/fitness" class="hover:text-accent transition">Fitness</a></li>
-            <li><a href="/category/dating-relationships" class="hover:text-accent transition">Dating</a></li>
-            <li><a href="/category/career-advice" class="hover:text-accent transition">Career</a></li>
+            <li><a href={`${baseUrl}/category/mens-fashion`} class="hover:text-accent transition">Fashion</a></li>
+            <li><a href={`${baseUrl}/category/fitness`} class="hover:text-accent transition">Fitness</a></li>
+            <li><a href={`${baseUrl}/category/dating-relationships`} class="hover:text-accent transition">Dating</a></li>
+            <li><a href={`${baseUrl}/category/career-advice`} class="hover:text-accent transition">Career</a></li>
           </ul>
         </div>
         <div>
           <h4 class="font-semibold text-white mb-4">More</h4>
           <ul class="space-y-2 text-gray-400">
-            <li><a href="/category/outdoor-adventures" class="hover:text-accent transition">Outdoors</a></li>
-            <li><a href="/category/mental-health" class="hover:text-accent transition">Mental Health</a></li>
-            <li><a href="/category/personal-finance" class="hover:text-accent transition">Finance</a></li>
-            <li><a href="/category/mens-health" class="hover:text-accent transition">Health</a></li>
+            <li><a href={`${baseUrl}/category/outdoor-adventures`} class="hover:text-accent transition">Outdoors</a></li>
+            <li><a href={`${baseUrl}/all-posts`} class="hover:text-accent transition">All Articles</a></li>
           </ul>
         </div>
         <div>

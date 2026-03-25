@@ -1,0 +1,198 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+// Helper to decode HTML entities
+function decodeHtmlEntities(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#8217;/g, "'")
+    .replace(/&#8220;/g, '"')
+    .replace(/&#8221;/g, '"')
+    .replace(/&#8211;/g, '-')
+    .replace(/&#8212;/g, '--')
+    .replace(/&amp;amp;/g, '&');
+}
+
+// Define static paths for all categories
+export async function getStaticPaths() {
+  const categories = [
+    'mens-fashion',
+    'fitness',
+    'dating-relationships',
+    'career-advice',
+    'outdoor-adventures'
+  ];
+  
+  return categories.map(slug => ({
+    params: { slug }
+  }));
+}
+
+// Get slug from URL
+const { slug } = Astro.params;
+
+// Define category info
+const categoryInfo: Record<string, { name: string; description: string; icon: string }> = {
+  'mens-fashion': { 
+    name: "Men's Fashion & Style", 
+    description: "Clothing, grooming, accessories, and style tips for the modern man",
+    icon: "👔"
+  },
+  'fitness': { 
+    name: "Fitness & Health", 
+    description: "Workouts, nutrition, mental health, and wellness guides",
+    icon: "💪"
+  },
+  'dating-relationships': { 
+    name: "Dating & Relationships", 
+    description: "Dating advice, relationship tips, and social skills",
+    icon: "❤️"
+  },
+  'career-advice': { 
+    name: "Career & Finance", 
+    description: "Career growth, finance tips, and professional development",
+    icon: "💼"
+  },
+  'outdoor-adventures': { 
+    name: "Outdoor & Adventure", 
+    description: "Travel, outdoor activities, survival skills, and adventure",
+    icon: "🏔️"
+  }
+};
+
+// Get category info or default
+const info = categoryInfo[slug || ''] || { 
+  name: slug?.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()), 
+  description: "Browse all articles in this category",
+  icon: "📚"
+};
+
+// Get all posts
+const postFiles = Object.values(import.meta.glob('../../content/posts/*.md', { eager: true }));
+const allPosts = postFiles.map((post: any) => ({
+  ...post,
+  frontmatter: {
+    ...post.frontmatter,
+    title: decodeHtmlEntities(post.frontmatter.title),
+    excerpt: decodeHtmlEntities(post.frontmatter.excerpt),
+    categories: (post.frontmatter.categories || []).map((c: string) => decodeHtmlEntities(c))
+  }
+}));
+
+// Filter posts by category (case-insensitive matching)
+const posts = allPosts.filter(post => 
+  post.frontmatter.categories?.some((cat: string) => 
+    cat.toLowerCase() === info.name.toLowerCase() ||
+    cat.toLowerCase().includes(info.name.toLowerCase().split(' ')[0])
+  )
+).sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
+
+// Get all unique categories for sidebar
+const allCategories = [...new Set(allPosts.flatMap(post => post.frontmatter.categories || []))].sort();
+---
+
+<Layout title={`${info.name} | Redikicks`}>
+  <!-- Category Header -->
+  <section class="py-20 bg-gradient-to-br from-primary via-secondary to-dark">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="text-6xl mb-4">{info.icon}</div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">
+          {info.name}
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-6">
+          {info.description}
+        </p>
+        <div class="text-accent text-lg font-semibold">
+          {posts.length} Articles
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid lg:grid-cols-4 gap-8">
+      {/* Sidebar */}
+      <aside class="lg:col-span-1">
+        <div class="sticky top-24">
+          <h3 class="text-xl font-bold mb-4 text-white" style="font-family: 'Playfair Display', serif;">
+            Categories
+          </h3>
+          <ul class="space-y-2">
+            {Object.entries(categoryInfo).map(([catSlug, catInfo]) => (
+              <li>
+                <a 
+                  href={`/redikicks-astro/category/${catSlug}`}
+                  class={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
+                    slug === catSlug 
+                      ? 'bg-accent text-white' 
+                      : 'text-gray-400 hover:bg-secondary hover:text-white'
+                  }`}
+                >
+                  <span>{catInfo.icon}</span>
+                  <span class="text-sm">{catInfo.name}</span>
+                </a>
+              </li>
+            ))}
+            <li class="border-t border-white/10 pt-2 mt-2">
+              <a 
+                href="/redikicks-astro/all-posts"
+                class="flex items-center gap-2 px-4 py-2 rounded-lg text-gray-400 hover:bg-secondary hover:text-white transition-colors"
+              >
+                <span>📚</span>
+                <span class="text-sm">View All Posts</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      {/* Posts Grid */}
+      <div class="lg:col-span-3">
+        {posts.length > 0 ? (
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {posts.map(post => (
+              <article class="article-card card-hover group">
+                <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
+                  <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
+                    <img 
+                      src={post.frontmatter.featured_image || '/redikicks-astro/images/placeholder.jpg'}
+                      alt={post.frontmatter.title}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      onerror="this.onerror=null; this.src='/redikicks-astro/images/placeholder.jpg';"
+                    />
+                  </div>
+                  <div class="p-4">
+                    <h3 class="text-base font-bold text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                      {post.frontmatter.title}
+                    </h3>
+                    <p class="text-gray-400 text-sm mt-2 line-clamp-2">
+                      {post.frontmatter.excerpt}
+                    </p>
+                    <p class="text-gray-500 text-xs mt-2">
+                      {new Date(post.frontmatter.date).toLocaleDateString('en-US', { 
+                        year: 'numeric', 
+                        month: 'short', 
+                        day: 'numeric' 
+                      })}
+                    </p>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <div class="text-center py-20">
+            <div class="text-6xl mb-4">📝</div>
+            <h3 class="text-2xl font-bold mb-2" style="font-family: 'Playfair Display', serif;">No Posts Found</h3>
+            <p class="text-gray-400">Check back soon for new content in this category.</p>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</Layout>

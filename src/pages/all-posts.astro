@@ -1,0 +1,113 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Helper to decode HTML entities
+function decodeHtmlEntities(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#8217;/g, "'")
+    .replace(/&#8220;/g, '"')
+    .replace(/&#8221;/g, '"')
+    .replace(/&#8211;/g, '-')
+    .replace(/&#8212;/g, '--')
+    .replace(/&amp;amp;/g, '&');
+}
+
+// Get all posts
+const postFiles = Object.values(import.meta.glob('../content/posts/*.md', { eager: true }));
+const posts = postFiles.map((post: any) => ({
+  ...post,
+  frontmatter: {
+    ...post.frontmatter,
+    title: decodeHtmlEntities(post.frontmatter.title),
+    excerpt: decodeHtmlEntities(post.frontmatter.excerpt),
+    categories: (post.frontmatter.categories || []).map((c: string) => decodeHtmlEntities(c))
+  }
+}));
+
+// Sort by date
+posts.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
+
+// Get unique categories for filter
+const allCategories = [...new Set(posts.flatMap(post => post.frontmatter.categories || []))].sort();
+---
+
+<Layout title="All Articles | Redikicks">
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">
+          All <span class="gradient-text">Articles</span>
+        </h1>
+        <p class="text-xl text-gray-400">
+          Browse all {posts.length} articles across every category
+        </p>
+      </div>
+
+      <!-- Category Filter -->
+      <div class="mb-12">
+        <div class="flex flex-wrap gap-3 justify-center">
+          <a href="/redikicks-astro/all-posts" class="px-4 py-2 rounded-full bg-accent text-white font-semibold">
+            All
+          </a>
+          {allCategories.map(cat => (
+            <a 
+              href={`/redikicks-astro/category/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+              class="px-4 py-2 rounded-full bg-secondary/50 border border-white/10 text-gray-300 hover:bg-accent hover:text-white transition-all duration-300"
+            >
+              {cat}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Posts Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {posts.map(post => (
+          <article class="article-card card-hover group">
+            <a href={`/redikicks-astro/post/${post.frontmatter.slug}`}>
+              <div class="aspect-video bg-gradient-to-br from-secondary to-primary overflow-hidden relative">
+                <img 
+                  src={post.frontmatter.featured_image || '/redikicks-astro/images/placeholder.jpg'}
+                  alt={post.frontmatter.title}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onerror="this.onerror=null; this.src='/redikicks-astro/images/placeholder.jpg';"
+                />
+              </div>
+              <div class="p-4">
+                <div class="flex gap-2 mb-2 flex-wrap">
+                  {post.frontmatter.categories?.slice(0, 2).map(cat => (
+                    <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded">{cat}</span>
+                  ))}
+                </div>
+                <h3 class="text-base font-bold text-white group-hover:text-accent transition-colors line-clamp-2" style="font-family: 'Playfair Display', serif;">
+                  {post.frontmatter.title}
+                </h3>
+                <p class="text-gray-500 text-xs mt-2">
+                  {new Date(post.frontmatter.date).toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'short', 
+                    day: 'numeric' 
+                  })}
+                </p>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+
+      <!-- Load More (Pagination simulation) -->
+      <div class="text-center mt-12">
+        <p class="text-gray-500 mb-4">Showing all {posts.length} articles</p>
+        <a href="/redikicks-astro/" class="btn-secondary">
+          ← Back to Home
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
