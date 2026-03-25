@@ -4,7 +4,7 @@ slug: "the-preppy-handbook-dress-like-you-own-a-yacht-even-if-you-dont"
 date: "2024-08-04T14:19:09"
 categories: ["Men's Fashion"]
 excerpt: "Find out how to build a classic preppy wardrobe that screams &#34;yacht owner&#34; without breaking the bank. "
-featured_image: "/redikicks-astro/images/featured_image_1149.png"
+featured_image: null
 ---
 
 <p>Want to look like you own a yacht&#44; even if you don&#39;t&#63; Start by building a <strong>classic preppy wardrobe</strong> with timeless essentials like <strong>crisp whites</strong>&#44; navy blues&#44; and earthy tones. Invest in <strong>quality denim</strong> that fits flawlessly and exudes effortless elegance. Add a versatile collection of dress shirts and blazers that can be dressed up or down. Don&#39;t forget to accessorize with a <strong>statement piece</strong>&#44; like a bold anchor-shaped necklace or a classic preppy hat. Own your look with confidence&#44; good posture&#44; and a smile. And&#44; with a few more style secrets&#44; you&#39;ll be sailing your way to preppy perfection in no time.</p>

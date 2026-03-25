@@ -4,7 +4,7 @@ slug: "timeless-mens-classic-wool-overcoats-for-style"
 date: "2024-10-01T17:04:08"
 categories: ["Men's Fashion"]
 excerpt: "Discover timeless elegance with our Men&#8217;s Classic Wool Overcoats. Superior craftsmanship, premium fabrics, and versatile styles for the modern gentleman. Shop now! "
-featured_image: "/redikicks-astro/images/featured_image_5218.png"
+featured_image: null
 ---
 
 <p>Did you know the Men&#8217;s Classic Wool Overcoat is made of 80% wool and 20% polyamide? This mix gives you unmatched warmth, lasting quality, and classic style. It&#8217;s perfect for both formal and casual looks, making it essential for any man&#8217;s closet.</p>

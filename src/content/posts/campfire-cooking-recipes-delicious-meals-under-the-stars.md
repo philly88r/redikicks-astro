@@ -4,7 +4,7 @@ slug: "campfire-cooking-recipes-delicious-meals-under-the-stars"
 date: "2024-08-07T12:54:36"
 categories: ["Outdoor Adventures"]
 excerpt: "Learn how to create mouthwatering campfire meals that will transform your outdoor experience&#8212;discover the secrets behind unforgettable flavors under the stars&#33; "
-featured_image: "/redikicks-astro/images/featured_image_1846.png"
+featured_image: null
 ---
 
 <p>I love whipping up delicious meals under the stars&#44; and campfire cooking makes the experience even more special. With a trusty cast-iron skillet and a portable grill grate&#44; I can cook anything from hearty breakfast burritos to foil packet dinners filled with veggies and seasoned protein. Late-night s&#39;mores add a sweet touch to the crisp night air&#44; while grilled veggie skewers keep things vibrant and satisfying for everyone. Whether I&#39;m cooking solo or with friends&#44; each meal becomes a shared adventure. There&#39;s so much to explore in campfire cuisine&#44; and it only gets better from here.</p>

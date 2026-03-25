@@ -4,7 +4,7 @@ slug: "stylish-aviator-sunglasses-classic-cool-for-everyone"
 date: "2024-08-04T17:04:51"
 categories: ["Men's Accessories"]
 excerpt: "Elevate your style with iconic Aviator sunglasses. Discover our vast selection of classic, mirrored, and designer pilot shades for all. "
-featured_image: "/redikicks-astro/images/featured_image_713.png"
+featured_image: null
 ---
 
 <p>Did you know <b>aviator sunglasses</b> get a high rating of 4.8 out of 5 stars from many reviews? They were first made in 1935 for U.S. military pilots. Now, they&#8217;re a fashion must-have for stars and regular folks.</p>

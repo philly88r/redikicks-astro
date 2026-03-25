@@ -4,7 +4,7 @@ slug: "surfing-for-beginners-catch-your-first-wave"
 date: "2024-08-07T14:10:54"
 categories: ["Outdoor Adventures"]
 excerpt: "Harness your excitement and discover essential tips to catch your first wave in surfing&#8212;your adventure awaits just beyond the shore&#33; "
-featured_image: "/redikicks-astro/images/featured_image_2002.png"
+featured_image: null
 ---
 
 <p>Catching your first wave is an incredible experience I&#39;ve come to cherish. Start by choosing a wider&#44; soft-top surfboard for added stability&#44; and always assess the tide and wave conditions. I focus on proper body positioning and paddle smoothly to time my approach. As the wave builds&#44; I make sure my weight is centered when standing up. It&#39;s normal to fall&#8212;each wipeout is part of the learning adventure&#33; With practice and patience&#44; the thrill of gliding on water will ignite your passion for surfing. There&#39;s so much more to explore about surfing techniques and gear that can enhance your journey.</p>

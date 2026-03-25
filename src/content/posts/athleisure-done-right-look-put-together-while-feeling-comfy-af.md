@@ -4,7 +4,7 @@ slug: "athleisure-done-right-look-put-together-while-feeling-comfy-af"
 date: "2024-08-04T14:10:23"
 categories: ["Men's Fashion"]
 excerpt: "Discover the secret to mastering athleisure chic without sacrificing comfort&#44; and get ready to elevate your everyday style. "
-featured_image: "/redikicks-astro/images/featured_image_1137.png"
+featured_image: null
 ---
 
 <p>You&#39;re likely one of the <strong>75&#37; of Americans</strong> who prioritize <strong>comfort</strong> when getting dressed&#44; but that doesn&#39;t mean you have to sacrifice style for the sake of coziness. To <strong>elevate your athleisure look</strong> from basic to brilliant&#44; start by investing in high-quality&#44; versatile basics like neutral-colored tops&#44; leggings&#44; and joggers. Add a <strong>statement piece</strong>&#44; like bold jewelry or a chunky accessory&#44; to instantly boost your outfit&#39;s personality. Accessorize with intention&#44; mixing textures and adding a stylish bag or hat to complete your look. With a few intentional tweaks&#44; you can master the art of athleisure chic &#8211; and we&#39;re just getting started.</p>

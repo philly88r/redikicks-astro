@@ -4,7 +4,7 @@ slug: "statement-rings-bold-jewelry-to-express-yourself"
 date: "2024-08-04T16:42:39"
 categories: ["Men's Accessories"]
 excerpt: "Elevate your style with unique statement rings that showcase your personality. Shop the latest bold and trendy designs online now. "
-featured_image: "/redikicks-astro/images/featured_image_585.png"
+featured_image: null
 ---
 
 <p>Did you know <b>statement rings</b> started in the 1920s? That was a time when people loved to show who they were. Today, these rings are still key in fashion. They make a big statement about your style and character.</p>

@@ -4,7 +4,7 @@ slug: "elegant-linen-scarves-perfect-for-any-occasion"
 date: "2024-08-04T16:36:12"
 categories: ["Men's Accessories"]
 excerpt: "Discover the charm of a linen scarf, your ideal accessory for timeless style and season-long comfort. Elevate every outfit with elegance. "
-featured_image: "/redikicks-astro/images/featured_image_553.png"
+featured_image: null
 ---
 
 <p>Did you know linen scarves are now more popular than ever? The forest green gingham scarf is even &#8216;SOLD OUT&#8217;! These scarves are priced from $39.00 CAD to $46.00 CAD. They mix luxury with practicality, making them essential for any wardrobe.</p>

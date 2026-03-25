@@ -4,7 +4,7 @@ slug: "discover-fun-quirky-novelty-socks-for-every-occasion"
 date: "2024-08-04T17:47:03"
 categories: ["Men's Accessories"]
 excerpt: "Step into a world of creativity with our collection of novelty socks – perfect for every quirky and fun occasion! "
-featured_image: "/redikicks-astro/images/featured_image_981.png"
+featured_image: null
 ---
 
 <p>Did you know there are over 2000 unique designs of <b>novelty socks</b>? They fit every personality and taste. These <b>fun socks</b> have become more than just fashion items. They let you show off your unique style.</p>

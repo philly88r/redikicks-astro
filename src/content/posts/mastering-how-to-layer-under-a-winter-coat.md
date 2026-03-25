@@ -4,7 +4,7 @@ slug: "mastering-how-to-layer-under-a-winter-coat"
 date: "2024-10-01T17:11:27"
 categories: ["Men's Fashion"]
 excerpt: "Stay warm and stylish this winter! Learn expert tips on how to layer under a winter coat for maximum comfort and protection against the cold. "
-featured_image: "/redikicks-astro/images/featured_image_5274.png"
+featured_image: null
 ---
 
 <p>Did you know a well-layered outfit can keep you 50% warmer than a single thick coat? Layering is key to staying warm and comfy in winter. By learning the science and techniques of layering, you can beat the cold and enjoy winter in style.</p>

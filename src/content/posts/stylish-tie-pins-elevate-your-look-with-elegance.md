@@ -4,7 +4,7 @@ slug: "stylish-tie-pins-elevate-your-look-with-elegance"
 date: "2024-08-04T17:49:02"
 categories: ["Men's Accessories"]
 excerpt: "Discover elegant tie pins to perfect your formal ensemble. Shop the latest in men&#8217;s fashion accessories and transform your look with sophistication. "
-featured_image: "/redikicks-astro/images/featured_image_1004.png"
+featured_image: null
 ---
 
 <p>Did you know custom <b>tie pins</b> can show off your unique style? Today, <b>tie pins</b> are key <b>accessories</b> that add elegance to your look. They&#8217;re perfect for both formal events and showing off your <b>personal style</b>.</p>

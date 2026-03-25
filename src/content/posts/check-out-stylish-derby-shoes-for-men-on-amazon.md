@@ -4,7 +4,7 @@ slug: "check-out-stylish-derby-shoes-for-men-on-amazon"
 date: "2024-07-26T20:00:05"
 categories: ["Mens Footwear"]
 excerpt: "Discover the perfect pair of Men&#8217;s Derby Shoes on Amazon. I&#8217;ve curated a selection of stylish, comfortable options for every occasion. Elevate your wardrobe today! "
-featured_image: "/redikicks-astro/images/featured_image_66.png"
+featured_image: null
 ---
 
 

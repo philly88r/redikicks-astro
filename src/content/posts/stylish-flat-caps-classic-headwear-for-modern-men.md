@@ -4,7 +4,7 @@ slug: "stylish-flat-caps-classic-headwear-for-modern-men"
 date: "2024-08-04T16:50:51"
 categories: ["Men's Accessories"]
 excerpt: "Explore our collection of stylish flat caps, the quintessential headwear for the modern man seeking a touch of classic elegance. Shop now! "
-featured_image: "/redikicks-astro/images/featured_image_633.png"
+featured_image: null
 ---
 
 <p>Did you know flat caps have been around since 1571? They became popular again in the 1920s, loved by men of all backgrounds. These stylish caps are more than old hats; they&#8217;re key pieces for today&#8217;s man.</p>

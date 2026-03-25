@@ -4,7 +4,7 @@ slug: "spacious-wallets-with-lots-of-card-slots-for-you"
 date: "2024-07-28T04:26:45"
 categories: ["Men's Accessories", "Men's Wallet"]
 excerpt: "Discover the best deals on Ridge wallets online! Shop now for patented, slim designs with ample card slots at unbeatable prices. Secure your Ridge wallet for sale today. "
-featured_image: "/redikicks-astro/images/featured_image_491.png"
+featured_image: null
 ---
 
     <div class="hostinger-affiliate-block-single-type">

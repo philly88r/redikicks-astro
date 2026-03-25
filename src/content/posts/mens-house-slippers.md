@@ -4,7 +4,7 @@ slug: "mens-house-slippers"
 date: "2024-07-26T20:19:21"
 categories: ["Mens Footwear"]
 excerpt: "Discover the perfect men&#8217;s house slippers on Amazon. I&#8217;ve curated a list of cozy, comfortable options for ultimate relaxation at home. Find your ideal pair today! "
-featured_image: "/redikicks-astro/images/featured_image_74.png"
+featured_image: null
 ---
 
 <div class="hostinger-affiliate-block-list-cards">

@@ -4,7 +4,7 @@ slug: "jack-black-beard-grooming-kit-review"
 date: "2024-07-28T04:07:58"
 categories: ["Men's Accessories"]
 excerpt: "Discover how the Jack Black Beard Grooming Kit elevates your beard care routine. Get insider tips for a sleek, well-maintained look! "
-featured_image: "/redikicks-astro/images/featured_image_335.png"
+featured_image: null
 ---
 
 

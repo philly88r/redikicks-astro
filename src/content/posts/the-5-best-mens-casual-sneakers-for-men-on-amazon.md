@@ -4,7 +4,7 @@ slug: "the-5-best-mens-casual-sneakers-for-men-on-amazon"
 date: "2024-07-26T19:10:32"
 categories: ["Mens Footwear"]
 excerpt: "We tested dozens of casual sneakers, and these are the 5 best to wear this fall with jeans, khakis, and shorts. "
-featured_image: "/redikicks-astro/images/featured_image_36.png"
+featured_image: null
 ---
 
 

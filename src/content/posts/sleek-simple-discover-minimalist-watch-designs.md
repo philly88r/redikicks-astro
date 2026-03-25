@@ -4,7 +4,7 @@ slug: "sleek-simple-discover-minimalist-watch-designs"
 date: "2024-08-04T17:28:51"
 categories: ["Men's Accessories"]
 excerpt: "Explore modern timepieces that embody understated elegance. Shop our collection of sleek minimalist watches for a touch of contemporary style. "
-featured_image: "/redikicks-astro/images/featured_image_861.png"
+featured_image: null
 ---
 
 <p>Did you know the global watch market could hit $90 billion by 2025? <b>Minimalist watches</b> are leading this growth. They mix function with elegance, perfect for those who love <b>simplicity</b>. These watches have <b>clean lines</b> and focus on the basics, leaving out the extra stuff.</p>

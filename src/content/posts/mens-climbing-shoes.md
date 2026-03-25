@@ -4,7 +4,7 @@ slug: "mens-climbing-shoes"
 date: "2024-07-26T20:02:38"
 categories: ["Mens Footwear"]
 excerpt: "Discover top-rated Men&#8217;s Climbing Shoes on Amazon. I&#8217;ve curated the best options for comfort, grip, and performance. Find your perfect fit today! "
-featured_image: "/redikicks-astro/images/featured_image_67.png"
+featured_image: null
 ---
 
 

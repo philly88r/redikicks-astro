@@ -4,7 +4,7 @@ slug: "slim-wallet-flat-stylish-minimalist-card-holder"
 date: "2024-07-28T04:10:12"
 categories: ["Men's Accessories", "Men's Wallet"]
 excerpt: "Elevate your pocket space with our wallet flat, the perfect blend of minimalist design and RFID blocking tech. Shop now for a sleek upgrade! "
-featured_image: "/redikicks-astro/images/featured_image_361.png"
+featured_image: null
 ---
 
 <p>Did you know that the average American carries up to 19 cards in their wallet? However, many are opting for a more streamlined approach. The Slim <b>Wallet Flat</b> represents a modern solution to this overcrowded dilemma, combining practicality with a stylish minimalist aesthetic. Measuring just 2.75&#8243; x 4&#8243; x 0.25&#8243; and weighing only 0.15 lbs, this <b>wallet flat</b> is designed to fit seamlessly into any front pocket. </p>

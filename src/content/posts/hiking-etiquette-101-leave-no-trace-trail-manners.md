@@ -4,7 +4,7 @@ slug: "hiking-etiquette-101-leave-no-trace-trail-manners"
 date: "2024-08-07T12:04:13"
 categories: ["Outdoor Adventures"]
 excerpt: "Keep your hiking experience enjoyable and respectful with essential Leave No Trace principles and trail manners that everyone should know&#8212;find out more inside&#33; "
-featured_image: "/redikicks-astro/images/featured_image_1774.png"
+featured_image: null
 ---
 
 <p>When I hike&#44; following Leave No Trace principles is my top priority. I always pack out what I bring in and stick to established trails to protect native vegetation. Prior to hitting the trail&#44; I check conditions and come prepared with essentials. During my hike&#44; I respect wildlife by observing from a distance and keeping noise to a minimum. It&#39;s important to yield to uphill hikers and educate others on proper waste disposal. By being mindful&#44; I help preserve our beautiful landscapes for everyone. If you&#39;re curious about more ways to enhance your hiking experience&#44; there&#39;s so much more to uncover&#33;</p>

@@ -4,7 +4,7 @@ slug: "iconic-wayfarer-sunglasses-timeless-style-comfort"
 date: "2024-08-04T17:05:21"
 categories: ["Men's Accessories"]
 excerpt: "Discover the charm of Wayfarer sunglasses – the epitome of classic style meets modern UV protection. Shop the latest in iconic fashion eyewear today. "
-featured_image: "/redikicks-astro/images/featured_image_721.png"
+featured_image: null
 ---
 
 <p>Since 1952, <b>Wayfarer sunglasses</b> have been a huge hit, selling over 20 million pairs each year. They mix classic looks with modern use. These sunglasses changed from aviation frames to a unique style made from plastic. This made them popular with fashion lovers and everyday wearers.</p>

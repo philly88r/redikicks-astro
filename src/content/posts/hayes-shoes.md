@@ -4,7 +4,7 @@ slug: "hayes-shoes"
 date: "2024-07-27T12:48:32"
 categories: ["Mens Footwear"]
 excerpt: "Discover comfort and style at Hayes Shoes. I offer a wide selection of footwear, from leather boots to comfortable sneakers. Find your perfect fit today and step out in confidence. "
-featured_image: "/redikicks-astro/images/featured_image_75.png"
+featured_image: null
 ---
 
 <p>Have you ever looked for a brand that combines <b>comfort</b> and fashion? <b>Hayes Shoes</b> is that brand. They&#8217;ve been leading the way in <b>style</b> and <b>comfort</b> for years.</p>

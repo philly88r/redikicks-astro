@@ -4,7 +4,7 @@ slug: "classic-clubmaster-sunglasses-timeless-style-comfort"
 date: "2024-08-04T17:10:46"
 categories: ["Men's Accessories"]
 excerpt: "Elevate your look with iconic Clubmaster sunglasses &#8211; the perfect blend of timeless style and modern comfort for the fashion-savvy. "
-featured_image: "/redikicks-astro/images/featured_image_737.png"
+featured_image: null
 ---
 
 <p>Did you know over 90 million pairs of Ray-Ban sunglasses are sold each year? The <b>Clubmaster sunglasses</b> are a big hit for their mix of <strong>timeless style</strong> and comfort. They have a retro look and a bold browline. This makes them a favorite among fashion lovers for many years.</p>

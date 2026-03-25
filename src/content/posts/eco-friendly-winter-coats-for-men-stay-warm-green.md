@@ -4,7 +4,7 @@ slug: "eco-friendly-winter-coats-for-men-stay-warm-green"
 date: "2024-10-01T17:09:50"
 categories: ["Men's Fashion"]
 excerpt: "Discover stylish and sustainable Eco-Friendly Winter Coats for Men that keep you warm without harming the planet. Shop our collection of green outerwear today! "
-featured_image: "/redikicks-astro/images/featured_image_5258.png"
+featured_image: null
 ---
 
 <p>Did you know the global market for <b>eco-friendly winter coats</b> is growing fast? It&#8217;s expected to jump by 22% in the next five years. This growth shows how important <b>sustainable fashion</b> is becoming for men who want to be stylish and eco-friendly.</p>

@@ -4,7 +4,7 @@ slug: "the-classic-newsboy-cap-timeless-style-for-all"
 date: "2024-08-04T16:51:28"
 categories: ["Men's Accessories"]
 excerpt: "Discover the enduring charm of the Newsboy cap – a timeless accessory that adds a touch of classic elegance to any outfit. Explore styles now! "
-featured_image: "/redikicks-astro/images/featured_image_641.png"
+featured_image: null
 ---
 
 <p>Did you know the <b>newsboy cap</b> is back in style in America? It&#8217;s also called the <b>baker boy hat</b> or Gatsby cap. Over 31 new designs are out for those who love fashion. This hat has a round crown and short brim, mixing old charm with today&#8217;s trends.</p>
