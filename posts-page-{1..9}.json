@@ -1,0 +1,1 @@
+{"code":"rest_invalid_param","message":"Invalid parameter(s): page","data":{"status":400,"params":{"page":"page is not of type integer."},"details":{"page":{"code":"rest_invalid_type","message":"page is not of type integer.","data":{"param":"page"}}}}}
