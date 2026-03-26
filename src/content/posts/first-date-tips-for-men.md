@@ -55,7 +55,7 @@ word_count: "~2500"
 
 <!-- IMAGE 1 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/first-date-tips-for-men-1.jpg" alt="first date tips for men guide illustration" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/first-date-tips-for-men-1.jpg" alt="first date tips for men guide illustration" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Mastering first date tips for men is easier than you think</p>
 </div>
 
@@ -151,7 +151,7 @@ word_count: "~2500"
 
 <!-- IMAGE 2 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/first-date-tips-for-men-2.jpg" alt="Step-by-step first date tips for men process" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/first-date-tips-for-men-2.jpg" alt="Step-by-step first date tips for men process" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Following a proven system leads to better results</p>
 </div>
 
@@ -280,7 +280,7 @@ word_count: "~2500"
 
 <!-- IMAGE 3 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/first-date-tips-for-men-3.jpg" alt="Common first date tips for men mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/first-date-tips-for-men-3.jpg" alt="Common first date tips for men mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Learning from mistakes accelerates your progress</p>
 </div>
 

@@ -55,7 +55,7 @@ word_count: "~2500"
 
 <!-- IMAGE 1 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/best-affordable-mens-watches-under-100-1.jpg" alt="best affordable mens watches under 100 guide illustration" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/best-affordable-mens-watches-under-100-1.jpg" alt="best affordable mens watches under 100 guide illustration" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Mastering best affordable mens watches under 100 is easier than you think</p>
 </div>
 
@@ -151,7 +151,7 @@ word_count: "~2500"
 
 <!-- IMAGE 2 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/best-affordable-mens-watches-under-100-2.jpg" alt="Step-by-step best affordable mens watches under 100 process" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/best-affordable-mens-watches-under-100-2.jpg" alt="Step-by-step best affordable mens watches under 100 process" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Following a proven system leads to better results</p>
 </div>
 
@@ -280,7 +280,7 @@ word_count: "~2500"
 
 <!-- IMAGE 3 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/best-affordable-mens-watches-under-100-3.jpg" alt="Common best affordable mens watches under 100 mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/best-affordable-mens-watches-under-100-3.jpg" alt="Common best affordable mens watches under 100 mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Learning from mistakes accelerates your progress</p>
 </div>
 
@@ -353,6 +353,96 @@ word_count: "~2500"
 </div>
 
 <!-- CONCLUSION -->
+<!-- AMAZON PRODUCTS SECTION -->
+<h3>Top Recommended Products</h3>
+<p class="text-gray-400 mb-4">Based on our research, here are the best options available on Amazon. (As an Amazon Associate, we earn from qualifying purchases)</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse bg-secondary/30 rounded-xl overflow-hidden">
+    <thead>
+      <tr class="bg-accent text-white">
+        <th class="p-4 text-left">Product</th>
+        <th class="p-4 text-left">Price</th>
+        <th class="p-4 text-left">Rating</th>
+        <th class="p-4 text-left">Link</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-white/10">
+      
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71W-M+GZXjL._AC_UY679_.jpg" alt="Casio MDV106-1A Duro Analog Watch" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Casio MDV106-1A Duro Analog Watch</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$69.95</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.6)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B00JFI6F4E?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71kG+Zv+GvL._AC_UY679_.jpg" alt="Timex Weekender 40mm Watch" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Timex Weekender 40mm Watch</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$39.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.5)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B004VR9GCQ?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71L8hlT1PXL._AC_UY679_.jpg" alt="Seiko 5 Automatic SNK809" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Seiko 5 Automatic SNK809</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$95.00</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.7)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B000LTAY2U?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71j1qOXOYZL._AC_UY679_.jpg" alt="Citizen Eco-Drive BM8180-03E" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Citizen Eco-Drive BM8180-03E</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$89.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.6)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B000EQR6H0?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71LgKw8QQPL._AC_UY679_.jpg" alt="Fossil Minimalist FS5304" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Fossil Minimalist FS5304</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$79.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.5)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B01N0QKHXM?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="bg-secondary/20 border border-white/10 p-4 rounded-xl text-sm text-gray-400 mt-4">
+  <strong>Disclaimer:</strong> Prices and availability are subject to change. We may earn a commission from purchases made through these links at no additional cost to you.
+</div>
+
+
 <h2 id="conclusion">Conclusion</h2>
 <p>
   Mastering best affordable mens watches under 100 isn't about being perfect—it's about consistent progress. You now have a complete roadmap with strategies, tools, and expert insights to guide your journey.

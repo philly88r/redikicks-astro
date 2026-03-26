@@ -55,7 +55,7 @@ word_count: "~2500"
 
 <!-- IMAGE 1 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/camping-essentials-for-beginners-1.jpg" alt="camping essentials for beginners guide illustration" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/camping-essentials-for-beginners-1.jpg" alt="camping essentials for beginners guide illustration" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Mastering camping essentials for beginners is easier than you think</p>
 </div>
 
@@ -151,7 +151,7 @@ word_count: "~2500"
 
 <!-- IMAGE 2 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/camping-essentials-for-beginners-2.jpg" alt="Step-by-step camping essentials for beginners process" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/camping-essentials-for-beginners-2.jpg" alt="Step-by-step camping essentials for beginners process" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Following a proven system leads to better results</p>
 </div>
 
@@ -280,7 +280,7 @@ word_count: "~2500"
 
 <!-- IMAGE 3 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/camping-essentials-for-beginners-3.jpg" alt="Common camping essentials for beginners mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/camping-essentials-for-beginners-3.jpg" alt="Common camping essentials for beginners mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Learning from mistakes accelerates your progress</p>
 </div>
 
@@ -353,6 +353,96 @@ word_count: "~2500"
 </div>
 
 <!-- CONCLUSION -->
+<!-- AMAZON PRODUCTS SECTION -->
+<h3>Top Recommended Products</h3>
+<p class="text-gray-400 mb-4">Based on our research, here are the best options available on Amazon. (As an Amazon Associate, we earn from qualifying purchases)</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse bg-secondary/30 rounded-xl overflow-hidden">
+    <thead>
+      <tr class="bg-accent text-white">
+        <th class="p-4 text-left">Product</th>
+        <th class="p-4 text-left">Price</th>
+        <th class="p-4 text-left">Rating</th>
+        <th class="p-4 text-left">Link</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-white/10">
+      
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71rAmHHB+XL._AC_SL1500_.jpg" alt="Coleman Sundome 4-Person Tent" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Coleman Sundome 4-Person Tent</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$89.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.6)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B004J2GUP4?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71OzGs1FkLL._AC_SL1500_.jpg" alt="Teton Sports Celsius XXL Sleeping Bag" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Teton Sports Celsius XXL Sleeping Bag</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$89.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.7)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B004EHDCHC?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71U+YGBf+L._AC_SL1500_.jpg" alt="Coleman Portable Propane Stove" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">Coleman Portable Propane Stove</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$52.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.7)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B00005OU9D?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71iOs3s-bhL._AC_SL1500_.jpg" alt="GearLight LED Headlamp Flashlight" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">GearLight LED Headlamp Flashlight</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$17.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.6)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B07R5QD6M9?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-4 flex items-center gap-3">
+        <img src="https://m.media-amazon.com/images/I/71vK+Q-KM+L._AC_SL1500_.jpg" alt="First Aid Only 299 Piece First Aid Kit" class="w-16 h-16 object-contain rounded" />
+        <span class="font-medium">First Aid Only 299 Piece First Aid Kit</span>
+      </td>
+      <td class="p-4 text-accent font-bold">$19.99</td>
+      <td class="p-4">⭐⭐⭐⭐ (4.7)</td>
+      <td class="p-4">
+        <a href="https://www.amazon.com/dp/B000H5S7E0?tag=redikicks0c-20" target="_blank" rel="nofollow sponsored" class="inline-block bg-accent hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          View on Amazon
+        </a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="bg-secondary/20 border border-white/10 p-4 rounded-xl text-sm text-gray-400 mt-4">
+  <strong>Disclaimer:</strong> Prices and availability are subject to change. We may earn a commission from purchases made through these links at no additional cost to you.
+</div>
+
+
 <h2 id="conclusion">Conclusion</h2>
 <p>
   Mastering camping essentials for beginners isn't about being perfect—it's about consistent progress. You now have a complete roadmap with strategies, tools, and expert insights to guide your journey.

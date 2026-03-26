@@ -55,7 +55,7 @@ word_count: "~2500"
 
 <!-- IMAGE 1 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/how-to-negotiate-salary-raise-1.jpg" alt="how to negotiate salary raise guide illustration" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/how-to-negotiate-salary-raise-1.jpg" alt="how to negotiate salary raise guide illustration" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Mastering how to negotiate salary raise is easier than you think</p>
 </div>
 
@@ -151,7 +151,7 @@ word_count: "~2500"
 
 <!-- IMAGE 2 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/how-to-negotiate-salary-raise-2.jpg" alt="Step-by-step how to negotiate salary raise process" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/how-to-negotiate-salary-raise-2.jpg" alt="Step-by-step how to negotiate salary raise process" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Following a proven system leads to better results</p>
 </div>
 
@@ -280,7 +280,7 @@ word_count: "~2500"
 
 <!-- IMAGE 3 -->
 <div class="my-8">
-  <img src="/redikicks-astro/images/how-to-negotiate-salary-raise-3.jpg" alt="Common how to negotiate salary raise mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
+  <img src="/redikicks-astro/images//redikicks-astro/images/how-to-negotiate-salary-raise-3.jpg" alt="Common how to negotiate salary raise mistakes to avoid" class="w-full rounded-xl" loading="lazy" />
   <p class="text-sm text-gray-500 mt-2 text-center">Learning from mistakes accelerates your progress</p>
 </div>
 
